@@ -13,9 +13,6 @@ public class GamepadInput : MonoBehaviour
     // Drag the PlayerMovement component here in the Inspector
     public PlayerMovement PlayerMovement;
 
-    // Drag the PlayerCombat component here in the Inspector
-    public PlayerCombat PlayerCombat;
-
     // The minimum stick movement required to register as input (prevents stick drift)
     // 0.2 means the stick must move at least 20% from center before it counts
     public float Deadzone = 0.2f;
@@ -41,13 +38,7 @@ public class GamepadInput : MonoBehaviour
         // Tell PlayerMovement to move in that direction
         // Always call Move(), even when movement is zero — this is what stops the player
         // when no input is pressed. If we skip Move() on zero, the player keeps drifting.
-        PlayerMovement.Move(movement, this);
-
-        // If the attack button (West button - X on Xbox, Square on PlayStation) was pressed, trigger an attack
-        if (WasAttackButtonPressed())
-        {
-            PlayerCombat.Attack();
-        }
+        PlayerMovement.Move(movement.x, this);
     }
 
     // Gets the movement input from the gamepad as a Vector2 (x and y direction)
@@ -70,9 +61,6 @@ public class GamepadInput : MonoBehaviour
         {
             movement = GetDpadMovementIfActive(gamepad, movement);
         }
-        
-        // Normalize diagonal movement so the player doesn't move faster diagonally
-        movement = AdjustForDiagonalMovement(movement);
         
         // Return the final movement vector
         return movement;
@@ -103,19 +91,6 @@ public class GamepadInput : MonoBehaviour
         
         // Check if the north button was pressed THIS frame
         return Gamepad.current.buttonNorth.wasPressedThisFrame;
-    }
-    
-    // Checks if the attack button (West button - X on Xbox, Square on PlayStation) was pressed
-    public bool WasAttackButtonPressed()
-    {
-        // If no gamepad is connected, return false
-        if (Gamepad.current == null)
-        {
-            return false;
-        }
-        
-        // Check if the west button was pressed THIS frame
-        return Gamepad.current.buttonWest.wasPressedThisFrame;
     }
 
     // Gets the gamepad object at the specified GamepadIndex
@@ -158,7 +133,7 @@ public class GamepadInput : MonoBehaviour
     {
         // Read the current position of the left analog stick
         // Returns a Vector2 where x is horizontal (-1 to 1) and y is vertical (-1 to 1)
-        Vector2 stickInput = gamepad.leftStick.ReadValue();
+        Vector2 stickInput = new Vector2(gamepad.leftStick.ReadValue().x, 0);
         
         // Check if the stick has moved beyond the deadzone threshold
         if (IsStickInputAboveDeadzone(stickInput))
@@ -185,7 +160,7 @@ public class GamepadInput : MonoBehaviour
     {
         // Read the D-pad input
         // D-pad returns a Vector2 where x is left/right (-1, 0, or 1) and y is up/down (-1, 0, or 1)
-        Vector2 dpadInput = gamepad.dpad.ReadValue();
+        Vector2 dpadInput = new Vector2(gamepad.dpad.ReadValue().x, 0);
         
         // Check if any D-pad direction is pressed
         if (IsDpadActive(dpadInput))

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -9,8 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer spriteRenderer;
 
     private object priorityDevice = null;
-
-    public void Move(Vector2 direction, object inputDevice)
+    
+    public void Move(float direction, object inputDevice)
     {
         SetPriorityInputDevice(direction, inputDevice);
         
@@ -27,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
         return inputDevice != priorityDevice;
     }
 
-    private void FaceCorrectDirection(Vector2 direction)
+    private void FaceCorrectDirection(float direction)
     {
         if (IsNotFacingTheRightDirection(direction))
         {
@@ -43,13 +44,13 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale.z);
     }
     
-    private bool IsNotFacingTheRightDirection(Vector2 direction)
+    private bool IsNotFacingTheRightDirection(float direction)
     {
-        return direction.x > 0 && transform.localScale.x < 0
-               || direction.x < 0 && transform.localScale.x > 0;
+        return direction > 0 && transform.localScale.x < 0
+               || direction < 0 && transform.localScale.x > 0;
     }
 
-    private void SetPriorityInputDevice(Vector2 direction, object inputDevice)
+    private void SetPriorityInputDevice(float direction, object inputDevice)
     {
         if (IsMoving(direction))
         {
@@ -57,19 +58,18 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private bool IsMoving(Vector2 direction)
+    private bool IsMoving(float direction)
     {
-        return direction != Vector2.zero;
+        return direction != 0f;
     }
 
-    private void ApplyMovement(Vector2 direction)
+    private void ApplyMovement(float direction)
     {
-        rigidbody.linearVelocity = direction * speed;
+        rigidbody.linearVelocity = new Vector2(direction * speed, rigidbody.linearVelocity.y);
     }
 
-    private void Animate(Vector2 direction)
+    private void Animate(float direction)
     {
-        animator.SetFloat("Horizontal", Mathf.Abs(direction.x));
-        animator.SetFloat("Vertical", Mathf.Abs(direction.y));
+        animator.SetFloat("Horizontal", Mathf.Abs(direction));
     }
 }
