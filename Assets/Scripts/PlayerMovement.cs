@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = GameParameters.PlayerSpeed;
+    public float jumpPower = GameParameters.PlayerJumpPower;
     
     public Rigidbody2D rigidbody;
     public Animator animator;
@@ -21,6 +22,21 @@ public class PlayerMovement : MonoBehaviour
         FaceCorrectDirection(direction);
         Animate(direction);
         ApplyMovement(direction);
+    }
+
+    public void Jump(object inputDevice)
+    {
+        SetPriorityInputDevice(0f, inputDevice);
+    
+        if (IsNotUsingPriorityInputDevice(inputDevice))
+            return;
+        
+        ApplyJump();
+    }
+
+    private void ApplyJump()
+    {
+        rigidbody.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
     }
 
     private bool IsNotUsingPriorityInputDevice(object inputDevice)
