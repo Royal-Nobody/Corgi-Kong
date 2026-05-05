@@ -39,6 +39,11 @@ public class GamepadInput : MonoBehaviour
         // Always call Move(), even when movement is zero — this is what stops the player
         // when no input is pressed. If we skip Move() on zero, the player keeps drifting.
         PlayerMovement.Move(movement.x, this);
+
+        if (WasJumpButtonPressed())
+        {
+            PlayerMovement.Jump(this);
+        }
     }
 
     // Gets the movement input from the gamepad as a Vector2 (x and y direction)
@@ -78,6 +83,20 @@ public class GamepadInput : MonoBehaviour
         // Check if the south button was pressed THIS frame (not held from previous frames)
         // wasPressedThisFrame only returns true once per button press
         return Gamepad.current.buttonSouth.wasPressedThisFrame;
+    }
+    
+    // Checks if the place button (South button - A on Xbox, X on PlayStation) was pressed
+    public bool WasJumpButtonPressed()
+    {
+        // If no gamepad is connected, return false
+        if (Gamepad.current == null)
+        {
+            return false;
+        }
+        
+        // Check if the east button was pressed THIS frame (not held from previous frames)
+        // wasPressedThisFrame only returns true once per button press
+        return Gamepad.current.buttonEast.wasPressedThisFrame;
     }
 
     // Checks if the pickup button (North button - Y on Xbox, Triangle on PlayStation) was pressed

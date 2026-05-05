@@ -28,6 +28,11 @@ public class KeyboardInput : MonoBehaviour
         // Always call Move(), even when movement is zero. This is what stops the player
         // when no input is pressed. If we skip Move() on zero, the player keeps drifting.
         PlayerMovement.Move(movement, this);
+        
+        if (WasJumpButtonPressed())
+        {
+            PlayerMovement.Jump(this);
+        }
     }
 
     // Gets the movement input from the keyboard as a Vector2 (x and y direction)
@@ -62,6 +67,20 @@ public class KeyboardInput : MonoBehaviour
         // Check if E key was pressed THIS frame (not held from previous frames)
         // wasPressedThisFrame only returns true once per key press
         return Keyboard.current[GameParameters.PlaceKey].wasPressedThisFrame;
+    }
+    
+    // Checks if the place button (Space key) was pressed
+    public bool WasJumpButtonPressed()
+    {
+        // If no keyboard is available, return false
+        if (IsKeyboardUnavailable())
+        {
+            return false;
+        }
+        
+        // Check if Space key was pressed THIS frame (not held from previous frames)
+        // wasPressedThisFrame only returns true once per key press
+        return Keyboard.current[GameParameters.JumpKey].wasPressedThisFrame;
     }
 
     // Checks if the pickup button (F key) was pressed
