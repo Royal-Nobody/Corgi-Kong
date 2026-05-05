@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer spriteRenderer;
 
     private object priorityDevice = null;
+
+    public bool isInLadder = false;
     
     public void Move(float direction, object inputDevice)
     {
@@ -87,5 +89,21 @@ public class PlayerMovement : MonoBehaviour
     private void Animate(float direction)
     {
         animator.SetFloat("Horizontal", Mathf.Abs(direction));
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Ladder"))
+        {
+            isInLadder = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Ladder"))
+        {
+            isInLadder = false;
+        }    
     }
 }
