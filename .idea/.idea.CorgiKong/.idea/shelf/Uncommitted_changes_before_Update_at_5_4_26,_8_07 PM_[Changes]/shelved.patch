@@ -1,0 +1,30 @@
+Index: Assets/Settings 3.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>fileFormatVersion: 2\nguid: 0220aab0833d04faeb927d84ca6cc40c\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n
+===================================================================
+diff --git a/Assets/Settings 3.meta b/Assets/Settings 3.meta
+--- a/Assets/Settings 3.meta	(revision b0c07a657783b4d23fb840eeffa300e36d3c5d8f)
++++ b/Assets/Settings 3.meta	(date 1777950336000)
+@@ -1,5 +1,5 @@
+ fileFormatVersion: 2
+-guid: 0220aab0833d04faeb927d84ca6cc40c
++guid: 712d3cf32c01a479bbad291a342b0348
+ folderAsset: yes
+ DefaultImporter:
+   externalObjects: {}
+Index: Assets/Scripts 3.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>fileFormatVersion: 2\nguid: af783876ba9f3c242a1036e12ee71360\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n
+===================================================================
+diff --git a/Assets/Scripts 3.meta b/Assets/Scripts 3.meta
+--- a/Assets/Scripts 3.meta	(revision b0c07a657783b4d23fb840eeffa300e36d3c5d8f)
++++ b/Assets/Scripts 3.meta	(date 1777950336000)
+@@ -1,5 +1,5 @@
+ fileFormatVersion: 2
+-guid: af783876ba9f3c242a1036e12ee71360
++guid: a7e3ec9e3430f4888a5eb11564d72b54
+ folderAsset: yes
+ DefaultImporter:
+   externalObjects: {}

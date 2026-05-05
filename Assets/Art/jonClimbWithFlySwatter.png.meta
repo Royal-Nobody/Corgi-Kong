@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: f497073edc2034209b6f5159cfac4e19
+guid: 5eb35bdb66ed74b9faf998df040a561a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7892608941395121364
-    second: jonJumpWithFlySwatter_0
+      213: 481258781016424462
+    second: jonClimbWithFlySwatter_0
   - first:
-      213: -6187337120770039855
-    second: jonJumpWithFlySwatter_1
-  - first:
-      213: -261173458061900838
-    second: jonJumpWithFlySwatter_2
-  - first:
-      213: 6580248081221522813
-    second: jonJumpWithFlySwatter_3
-  - first:
-      213: -7756383127759497481
-    second: jonJumpWithFlySwatter_4
+      213: 6904589214580956251
+    second: jonClimbWithFlySwatter_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jonJumpWithFlySwatter_0
+      name: jonClimbWithFlySwatter_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 33
-        height: 88
+        width: 46
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d49deee30e288d60800000000000000
-      internalID: 7892608941395121364
+      spriteID: e00858fbf46cda600800000000000000
+      internalID: 481258781016424462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jonJumpWithFlySwatter_1
+      name: jonClimbWithFlySwatter_1
       rect:
         serializedVersion: 2
         x: 56
         y: 0
-        width: 44
-        height: 45
+        width: 45
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,74 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1dfd9eaaba9222aa0800000000000000
-      internalID: -6187337120770039855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jonJumpWithFlySwatter_2
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 28
-        width: 42
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad3c577af10206cf0800000000000000
-      internalID: -261173458061900838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jonJumpWithFlySwatter_3
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 0
-        width: 43
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d75972724ccb15b50800000000000000
-      internalID: 6580248081221522813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jonJumpWithFlySwatter_4
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 2
-        width: 23
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f6df00f3aacb5490800000000000000
-      internalID: -7756383127759497481
+      spriteID: b5c571ffe4702df50800000000000000
+      internalID: 6904589214580956251
       vertices: []
       indices: 
       edges: []
@@ -235,11 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      jonJumpWithFlySwatter_0: 7892608941395121364
-      jonJumpWithFlySwatter_1: -6187337120770039855
-      jonJumpWithFlySwatter_2: -261173458061900838
-      jonJumpWithFlySwatter_3: 6580248081221522813
-      jonJumpWithFlySwatter_4: -7756383127759497481
+      jonClimbWithFlySwatter_0: 481258781016424462
+      jonClimbWithFlySwatter_1: 6904589214580956251
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
