@@ -1,6 +1,5 @@
 {
-    "version": 1,
-    "name": "InputSystem_Actions 2",
+    "name": "InputSystem_Actions",
     "maps": [
         {
             "name": "Player",
