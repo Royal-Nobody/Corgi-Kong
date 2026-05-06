@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 101a95683388848b5bd6b3252db7999a
-      internalID: -1005471323
+      spriteID: 10792d97a457045beba4e7f0d09070cf
+      internalID: -1331127956
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0e971199f69c84d9ebedeb982944121d
+    spriteID: b6e4977ff2abe4d54a3d7886c649d0e6
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,7 @@ TextureImporter:
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":22.0,"y":21.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       spiderClimb_0: -3950066547686810344
-      spiderClimb_1: -1005471323
+      spiderClimb_1: -1331127956
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
