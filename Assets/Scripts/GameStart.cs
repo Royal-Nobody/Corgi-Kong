@@ -12,7 +12,6 @@ public class GameStart : MonoBehaviour
     
     public void OnStartButtonClicked()
     {
-        print("Owwwwwww");
         CanvasGroupDisplayer.Hide(StartMenuCanvasGroup);
         isGameStarted = true;
     }
