@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0d07fe9366cc84c42b944af3dd0c62f9
+guid: 71234ac261a61439caa3fb2f41078728
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2669142961033076756
-    second: Clouds_0
+      213: -2513241197254180036
+    second: jonIdle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clouds_0
+      name: jonIdle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 19
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4106c1f9163ba0520800000000000000
-      internalID: 2669142961033076756
+      spriteID: c3389c2627c2f1dd0800000000000000
+      internalID: -2513241197254180036
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Clouds_0: 2669142961033076756
+      jonIdle_0: -2513241197254180036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

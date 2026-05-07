@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 875d9a008c3f043ad94c99aa53193bbc
+guid: 9529bdbb97d3b4d74b5435af20ce36aa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7763844352679746523
-    second: jonRunWithFlySwatter 2_0
+      213: -7188768007748859755
+    second: jonTouchSpider_0
   - first:
-      213: 1852495870403873940
-    second: jonRunWithFlySwatter 2_1
+      213: -5927575682538781110
+    second: jonTouchSpider_1
   - first:
-      213: -9122283206094961646
-    second: jonRunWithFlySwatter 2_2
+      213: 3994067517698916063
+    second: jonTouchSpider_2
   - first:
-      213: 7934996890848956729
-    second: jonRunWithFlySwatter 2_3
+      213: 6756050648964102266
+    second: jonTouchSpider_3
+  - first:
+      213: -7652269285769303536
+    second: jonTouchSpider_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -83,7 +86,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -109,89 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jonRunWithFlySwatter 2_0
+      name: jonTouchSpider_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 0
         y: 0
-        width: 27
-        height: 64
+        width: 43
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 524e91322b8414490800000000000000
-      internalID: -7763844352679746523
+      spriteID: 598cf6da59d5c3c90800000000000000
+      internalID: -7188768007748859755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jonRunWithFlySwatter 2_1
+      name: jonTouchSpider_1
       rect:
         serializedVersion: 2
-        x: 54
+        x: 43
         y: 0
-        width: 33
-        height: 45
+        width: 43
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49c0d4fdd2365b910800000000000000
-      internalID: 1852495870403873940
+      spriteID: a46480782550dbda0800000000000000
+      internalID: -5927575682538781110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jonRunWithFlySwatter 2_2
+      name: jonTouchSpider_2
       rect:
         serializedVersion: 2
-        x: 92
+        x: 86
         y: 0
-        width: 27
-        height: 64
+        width: 43
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 214c23881c3276180800000000000000
-      internalID: -9122283206094961646
+      spriteID: fdebe51fe37cd6730800000000000000
+      internalID: 3994067517698916063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jonRunWithFlySwatter 2_3
+      name: jonTouchSpider_3
       rect:
         serializedVersion: 2
-        x: 139
+        x: 129
         y: 0
-        width: 32
-        height: 44
+        width: 43
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93191ec71a5ce1e60800000000000000
-      internalID: 7934996890848956729
+      spriteID: a787d08254052cd50800000000000000
+      internalID: 6756050648964102266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jonTouchSpider_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aa618c0adadc590800000000000000
+      internalID: -7652269285769303536
       vertices: []
       indices: 
       edges: []
@@ -200,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b827d293fb3f94a5693c05552349e479
     internalID: 0
     vertices: []
     indices: 
@@ -208,12 +233,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":43.0,"y":43.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      jonRunWithFlySwatter 2_0: -7763844352679746523
-      jonRunWithFlySwatter 2_1: 1852495870403873940
-      jonRunWithFlySwatter 2_2: -9122283206094961646
-      jonRunWithFlySwatter 2_3: 7934996890848956729
+      jonTouchSpider_0: -7188768007748859755
+      jonTouchSpider_1: -5927575682538781110
+      jonTouchSpider_2: 3994067517698916063
+      jonTouchSpider_3: 6756050648964102266
+      jonTouchSpider_4: -7652269285769303536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
