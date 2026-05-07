@@ -9,10 +9,14 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rigidbody;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
+    public GroundDetector groundDetection;
 
     private object priorityDevice = null;
-    
-    public void Move(float direction, object inputDevice)
+
+    private bool isTouchingLadder = false;
+    public bool isClimbingLadder = false;
+
+    public void Move(Vector2 direction, object inputDevice)
     {
         SetPriorityInputDevice(direction, inputDevice);
         
@@ -26,7 +30,11 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(object inputDevice)
     {
-        SetPriorityInputDevice(0f, inputDevice);
+        //Early return if the player is not touching the ground
+        if (!groundDetection.IsGrounded())
+            return;
+        
+        SetPriorityInputDevice(Vector2.zero, inputDevice);
     
         if (IsNotUsingPriorityInputDevice(inputDevice))
             return;
@@ -44,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
         return inputDevice != priorityDevice;
     }
 
-    private void FaceCorrectDirection(float direction)
+    private void FaceCorrectDirection(Vector2 direction)
     {
         if (IsNotFacingTheRightDirection(direction))
         {
@@ -60,13 +68,15 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale.z);
     }
     
-    private bool IsNotFacingTheRightDirection(float direction)
+    private bool IsNotFacingTheRightDirection(Vector2 direction)
     {
-        return direction > 0 && transform.localScale.x < 0
-               || direction < 0 && transform.localScale.x > 0;
+        float directionCheck = direction.x;
+        
+        return directionCheck > 0 && transform.localScale.x < 0
+               || directionCheck < 0 && transform.localScale.x > 0;
     }
 
-    private void SetPriorityInputDevice(float direction, object inputDevice)
+    private void SetPriorityInputDevice(Vector2 direction, object inputDevice)
     {
         if (IsMoving(direction))
         {
@@ -74,18 +84,50 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private bool IsMoving(float direction)
+    private bool IsMoving(Vector2 direction)
     {
-        return direction != 0f;
+        return direction != Vector2.zero;
     }
 
-    private void ApplyMovement(float direction)
+    private void ApplyMovement(Vector2 direction)
     {
-        rigidbody.linearVelocity = new Vector2(direction * speed, rigidbody.linearVelocity.y);
+        //If the player presses W or S when colliding with a ladder, they will enter a climbable ladder state.
+        //This state is turned off when the player exits the ladder's collider.
+        if (isTouchingLadder && Mathf.Abs(direction.y) > 0)
+        {
+            isClimbingLadder = true;
+        }
+        
+        if (isClimbingLadder)
+        {
+            //Make ladder movement slower than regular movement by dividing speed in half
+            rigidbody.linearVelocity = direction * (speed / 2);
+        }
+        else
+        {
+            rigidbody.linearVelocity = new Vector2(direction.x * speed, rigidbody.linearVelocity.y);
+        }
     }
 
-    private void Animate(float direction)
+    private void Animate(Vector2 direction)
     {
-        animator.SetFloat("Horizontal", Mathf.Abs(direction));
+        animator.SetFloat("Horizontal", Mathf.Abs(direction.x));
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Ladder"))
+        {
+            isTouchingLadder = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Ladder"))
+        {
+            isTouchingLadder = false;
+            isClimbingLadder = false;
+        }    
     }
 }

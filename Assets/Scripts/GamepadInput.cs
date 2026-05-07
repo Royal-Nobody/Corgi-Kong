@@ -38,7 +38,7 @@ public class GamepadInput : MonoBehaviour
         // Tell PlayerMovement to move in that direction
         // Always call Move(), even when movement is zero — this is what stops the player
         // when no input is pressed. If we skip Move() on zero, the player keeps drifting.
-        PlayerMovement.Move(movement.x, this);
+        PlayerMovement.Move(movement, this);
 
         if (WasJumpButtonPressed())
         {

@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb15416e-f4c2-428d-9a88-3c36c40ab9db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions 3.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions 3.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions 3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity 3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 4.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test.cs 3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings 3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings 3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings 4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings 4.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate 3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Renderer2D.asset 3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Scenes 3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Scenes 3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Margaux" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,12 +30,19 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Royal-Nobody/Corgi-Kong.git&quot;,
-    &quot;accountId&quot;: &quot;5eb065b0-9470-4da5-85c8-f07d29e5608e&quot;
+    &quot;accountId&quot;: &quot;d1ea7cbe-23b1-4dc0-9676-5f70572eb7f1&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameParameters.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GamepadInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test 3.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
@@ -58,11 +55,15 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Haley&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -91,6 +92,8 @@
       <updated>1777924790496</updated>
       <workItem from="1777924791218" duration="170000" />
       <workItem from="1777950081042" duration="305000" />
+      <workItem from="1778007187870" duration="727000" />
+      <workItem from="1778010504833" duration="1229000" />
     </task>
     <task id="LOCAL-00003" summary="Assest files">
       <option name="closed" value="true" />
