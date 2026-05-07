@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 875d9a008c3f043ad94c99aa53193bbc
+guid: 71234ac261a61439caa3fb2f41078728
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7763844352679746523
-    second: jonRunWithFlySwatter 2_0
-  - first:
-      213: 1852495870403873940
-    second: jonRunWithFlySwatter 2_1
-  - first:
-      213: -9122283206094961646
-    second: jonRunWithFlySwatter 2_2
-  - first:
-      213: 7934996890848956729
-    second: jonRunWithFlySwatter 2_3
+      213: -2513241197254180036
+    second: jonIdle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -83,7 +74,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -109,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jonRunWithFlySwatter 2_0
+      name: jonIdle_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 0
         y: 0
-        width: 27
-        height: 64
+        width: 19
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,74 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 524e91322b8414490800000000000000
-      internalID: -7763844352679746523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jonRunWithFlySwatter 2_1
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 0
-        width: 33
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 49c0d4fdd2365b910800000000000000
-      internalID: 1852495870403873940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jonRunWithFlySwatter 2_2
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 0
-        width: 27
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 214c23881c3276180800000000000000
-      internalID: -9122283206094961646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jonRunWithFlySwatter 2_3
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 0
-        width: 32
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93191ec71a5ce1e60800000000000000
-      internalID: 7934996890848956729
+      spriteID: c3389c2627c2f1dd0800000000000000
+      internalID: -2513241197254180036
       vertices: []
       indices: 
       edges: []
@@ -210,10 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      jonRunWithFlySwatter 2_0: -7763844352679746523
-      jonRunWithFlySwatter 2_1: 1852495870403873940
-      jonRunWithFlySwatter 2_2: -9122283206094961646
-      jonRunWithFlySwatter 2_3: 7934996890848956729
+      jonIdle_0: -2513241197254180036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
