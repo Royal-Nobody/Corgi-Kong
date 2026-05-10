@@ -2,15 +2,48 @@ using UnityEngine;
 
 public class Game : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public UI Ui;
+    public FlySwatterPlacer FlySwatterPlacer;
+    
+    private bool isGameRunning = false;
+
+    public void Start()
     {
-        
+        Ui.HideWinScreen();
+        Ui.HideGameOverScreen();
+        Ui.ShowStartScreen();
+    }
+    
+    public bool IsPlaying()
+    {
+        return isGameRunning;
+    }
+    
+    public void OnPlayButtonClicked()
+    {
+        Ui.HideStartScreen();
+        InitializeGame();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void InitializeGame()
+    {
+        isGameRunning = true;
+        StartPlacers();
+    }
+
+    private void StartPlacers()
+    {
+        FlySwatterPlacer.StartPlacing();
+    }
+
+    private void StopPlacers()
+    {
+        FlySwatterPlacer.StopPlacing();
+    }
+
+    public void OnPlayAgainButtonClicked()
     {
         
     }
+    
 }
