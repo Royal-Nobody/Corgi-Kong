@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8537f7d1-49b9-4e03-94ed-4207529b11db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Dirt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Dirt.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Gopher.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Gopher.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Ladder.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Ladder.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/flySwatter.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/flySwatter.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/jonBeforeAndAfterClimb.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonBeforeAndAfterClimb.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/jonBeforeAndAfterClimbWithFlySwatter.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonBeforeAndAfterClimbWithFlySwatter.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameParameters.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="WinScreen" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +65,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Standalone Player.Start Unity.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "SpiderSpawner",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
