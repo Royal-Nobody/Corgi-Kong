@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1614290210723479115}
   m_Layer: 0
   m_Name: Ladder Platform
-  m_TagString: Untagged
+  m_TagString: Effector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 2739241413908693241}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0046884306, y: 1.0655773, z: 0}
+  m_LocalPosition: {x: 0.0046884306, y: 0.985, z: 0}
   m_LocalScale: {x: 0.46884352, y: 0.7562649, z: 0.65227854}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -125,8 +125,8 @@ Transform:
   m_GameObject: {fileID: 8459348075320502808}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.492, y: 1.002, z: 0}
-  m_LocalScale: {x: 2.1329076, y: 1.3222879, z: 1.5330874}
+  m_LocalPosition: {x: -1.492, y: 1.0862, z: 0}
+  m_LocalScale: {x: 2.1329076, y: 1.4301865, z: 1.5330874}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6399631455715360636}
@@ -225,7 +225,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.04181084}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -235,5 +235,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.46875, y: 1.5625}
+  m_Size: {x: 0.46875, y: 1.6461217}
   m_EdgeRadius: 0
