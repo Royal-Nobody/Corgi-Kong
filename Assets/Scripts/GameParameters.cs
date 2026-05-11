@@ -3,8 +3,10 @@ using UnityEngine.InputSystem;
 
 public static class GameParameters
 {
-    public static float PlayerSpeed = 5f;
-    public static float PlayerJumpPower = 5f;
+    public static float PlayerSpeed = 2f;
+    public static float PlayerJumpPower = 3f;
+
+    public static float spiderSpeed = 1.5f;
     
     public static Key MoveLeft  = Key.A;
     public static Key MoveRight = Key.D;
