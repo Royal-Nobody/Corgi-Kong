@@ -16,4 +16,8 @@ public static class GameParameters
     public static Key PlaceKey  = Key.E;
     public static Key PickupKey = Key.F;
     public static Key JumpKey = Key.Space;
+    
+    public static float SpiderMinimumSpawnDelay = 1f;
+    public static float SpiderMaximumSpawnDelay = 3f;
+    
 }
