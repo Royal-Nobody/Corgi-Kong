@@ -97,11 +97,15 @@ public class PlayerMovement : MonoBehaviour
         
         if (isClimbingLadder)
         {
+            DisableLadderPlatformCollisions();
+            
             //Make ladder movement slower than regular movement by dividing speed in half
             rigidbody.linearVelocity = direction * (GameParameters.PlayerSpeed / 2);
         }
         else
         {
+            RestoreLadderPlatformCollisions();
+            
             rigidbody.linearVelocity = new Vector2(direction.x * GameParameters.PlayerSpeed, rigidbody.linearVelocity.y);
         }
     }
@@ -126,5 +130,25 @@ public class PlayerMovement : MonoBehaviour
             isTouchingLadder = false;
             isClimbingLadder = false;
         }    
+    }
+    
+    private void DisableLadderPlatformCollisions()
+    {
+        GameObject[] ladderPlatformColliders = GameObject.FindGameObjectsWithTag("Effector");
+
+        foreach (GameObject ladderPlatformCollider in ladderPlatformColliders)
+        {
+            Physics2D.IgnoreCollision(ladderPlatformCollider.GetComponent<Collider2D>().GetComponent<Collider2D>(), GetComponent<Collider2D>(), true);
+        }
+    }
+    
+    private void RestoreLadderPlatformCollisions()
+    {
+        GameObject[] ladderPlatformColliders = GameObject.FindGameObjectsWithTag("Effector");
+
+        foreach (GameObject ladderPlatformCollider in ladderPlatformColliders)
+        {
+            Physics2D.IgnoreCollision(ladderPlatformCollider.GetComponent<Collider2D>().GetComponent<Collider2D>(), GetComponent<Collider2D>(), false);
+        }
     }
 }

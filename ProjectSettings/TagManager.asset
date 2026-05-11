@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Spider Node
   - Spider
+  - Effector
   layers:
   - Default
   - TransparentFX
