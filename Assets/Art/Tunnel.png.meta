@@ -3,8 +3,8 @@ guid: c8dbcd0d534254d1e97470c111a0cebb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5451040132632114170
-    second: Tunnel 1_0
+      213: -5828474959326346466
+    second: Tunnel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tunnel 1_0
+      name: Tunnel_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,14 +115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af37fe9ae1cf5ab40800000000000000
-      internalID: 5451040132632114170
+      spriteID: e130813b7e81d1fa0800000000000000
+      internalID: -5828474959326346466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tunnel 1_1
+      name: Tunnel_1
       rect:
         serializedVersion: 2
         x: 64
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5302c8daddbb94f4d98131e010feea1c
-      internalID: 1736238956
+      spriteID: e3c477b4686684e63b049b6fbab63951
+      internalID: -2050929060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tunnel 1_2
+      name: Tunnel_2
       rect:
         serializedVersion: 2
         x: 128
@@ -159,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c70f8e78c29a540d49e719b15448a2e7
-      internalID: -1188664671
+      spriteID: 1f6435c8ed2a045b298afe3cb2252f71
+      internalID: -190356294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tunnel 1_3
+      name: Tunnel_3
       rect:
         serializedVersion: 2
         x: 0
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b74de67c867ee4418a92ff58fceb16c8
-      internalID: -1994950744
+      spriteID: dd6a132d4f6794f6e827f4692325f6b3
+      internalID: -1759744247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tunnel 1_4
+      name: Tunnel_4
       rect:
         serializedVersion: 2
         x: 64
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bbd1a41e7e794dd89ffd5546d6bfcbb
-      internalID: -260491457
+      spriteID: 5c781487090d049bca52a5581c016589
+      internalID: -1279890308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tunnel 1_5
+      name: Tunnel_5
       rect:
         serializedVersion: 2
         x: 128
@@ -225,14 +225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a599fe2839fa24b269763176acf259c2
-      internalID: 1428688661
+      spriteID: fa4d26cf448944d5aae392a9659e90bc
+      internalID: -1890706357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tunnel 1_6
+      name: Tunnel_6
       rect:
         serializedVersion: 2
         x: 0
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb8094d4c9aa14104950c1ca62811c31
-      internalID: 2087790161
+      spriteID: 9dd760d443e4c488388e5aebe184a923
+      internalID: -820206856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tunnel 1_7
+      name: Tunnel_7
       rect:
         serializedVersion: 2
         x: 64
@@ -269,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eccadd5b3a9bf4c009b2f3dd4da8942d
-      internalID: -992320359
+      spriteID: 5229c3af533b64b02b149fd26d95e60d
+      internalID: -906449496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tunnel 1_8
+      name: Tunnel_8
       rect:
         serializedVersion: 2
         x: 128
@@ -291,8 +291,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2319c62dcc29840328b7f2ab1d08a0e8
-      internalID: -130038451
+      spriteID: 0590db37de04f4b4c9736e00f09e094c
+      internalID: 1811731086
       vertices: []
       indices: 
       edges: []
@@ -301,7 +301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3f88f1c42a83d4e8abb50274d77eeac1
+    spriteID: 6cc223b49d1884517bd115eb9d7b99bc
     internalID: 0
     vertices: []
     indices: 
@@ -313,15 +313,15 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Tunnel 1_0: 5451040132632114170
-      Tunnel 1_1: 1736238956
-      Tunnel 1_2: -1188664671
-      Tunnel 1_3: -1994950744
-      Tunnel 1_4: -260491457
-      Tunnel 1_5: 1428688661
-      Tunnel 1_6: 2087790161
-      Tunnel 1_7: -992320359
-      Tunnel 1_8: -130038451
+      Tunnel_0: -5828474959326346466
+      Tunnel_1: -2050929060
+      Tunnel_2: -190356294
+      Tunnel_3: -1759744247
+      Tunnel_4: -1279890308
+      Tunnel_5: -1890706357
+      Tunnel_6: -820206856
+      Tunnel_7: -906449496
+      Tunnel_8: 1811731086
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
