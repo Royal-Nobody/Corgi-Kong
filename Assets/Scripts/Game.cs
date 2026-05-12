@@ -17,4 +17,10 @@ public class Game : MonoBehaviour
         isGameActive = false;
         Ui.ShowGameOverScreen();
     }
+    
+    public void TriggerWinScreen()
+    {
+        isGameActive = false;
+        Ui.ShowWinScreen();
+    }
 }
