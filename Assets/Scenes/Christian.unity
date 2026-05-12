@@ -3961,24 +3961,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpiderDirectionChangeNode
   possibleDirections: 0000000002000000
---- !u!1 &1234902808 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6200891990535559834, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
-  m_PrefabInstance: {fileID: 1809889948}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1234902817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234902808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0cefacfaa0546b43bd23cb4f9e89277, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  game: {fileID: 1518229421}
 --- !u!1 &1243269079
 GameObject:
   m_ObjectHideFlags: 0
@@ -4647,18 +4629,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 859493466437032895, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.24343076
-      objectReference: {fileID: 0}
-    - target: {fileID: 859493466437032895, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.24343076
-      objectReference: {fileID: 0}
-    - target: {fileID: 859493466437032895, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.48686153
-      objectReference: {fileID: 0}
-    - target: {fileID: 859493466437032895, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.46
       objectReference: {fileID: 0}
@@ -4698,6 +4668,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5053364214135573418, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
+      propertyPath: game
+      value: 
+      objectReference: {fileID: 1518229421}
     - target: {fileID: 5090346386565181770, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
       propertyPath: game
       value: 
@@ -4706,17 +4680,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 7395713881193262320, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
-      propertyPath: m_UsedByEffector
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6200891990535559834, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
-      insertIndex: 5
-      addedObject: {fileID: 1234902817}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
 --- !u!1 &1984983664
 GameObject:
