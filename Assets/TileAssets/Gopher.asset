@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Clouds_0
+  m_Name: Gopher
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 2669142961033076756, guid: 0d07fe9366cc84c42b944af3dd0c62f9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0afcd45f57f47459f8c8a1f6af1df5a9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
