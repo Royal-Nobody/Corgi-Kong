@@ -1,4 +1,6 @@
+using Unity.VectorGraphics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
@@ -17,10 +19,11 @@ public class Game : MonoBehaviour
         isGameActive = false;
         Ui.ShowGameOverScreen();
     }
-    
-    public void TriggerWinScreen()
+
+    public void PlayAgainButtonClicked()
     {
-        isGameActive = false;
-        Ui.ShowWinScreen();
+        //Actually reset stuff, but for now we will just reload the scene.
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //This effectively "resets" the game, by just reloading the scene from the beginning.
     }
 }

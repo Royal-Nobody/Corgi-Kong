@@ -9,6 +9,7 @@ TagManager:
   - Spider Node
   - Spider
   - Effector
+  - EndTile
   layers:
   - Default
   - TransparentFX
