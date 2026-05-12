@@ -18,4 +18,5 @@ public class UI : MonoBehaviour
     {
         CanvasGroupDisplayer.Hide(GameOverCanvasGroup);
     }
+    
 }

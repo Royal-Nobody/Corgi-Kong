@@ -17,4 +17,5 @@ public class Game : MonoBehaviour
         isGameActive = false;
         Ui.ShowGameOverScreen();
     }
+    
 }
