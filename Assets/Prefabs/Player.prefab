@@ -180,7 +180,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 8391384641866671992, guid: 9e8977065f8c143f597c15a10c6ab8c1, type: 3}
+  m_Sprite: {fileID: -2513241197254180036, guid: 71234ac261a61439caa3fb2f41078728, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   game: {fileID: 0}
   livesText: {fileID: 0}
-  livesLeft: 0
+  livesLeft: 3
 --- !u!114 &6399910855085510870
 MonoBehaviour:
   m_ObjectHideFlags: 0

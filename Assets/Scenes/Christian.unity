@@ -2139,34 +2139,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4105263433721542104, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -2513241197254180036, guid: 71234ac261a61439caa3fb2f41078728, type: 3}
-    - target: {fileID: 4105263433721542104, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4105263433721542104, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4105263433721542104, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4652320951499620670, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: b1a641e1ed9add542b5ed26529b6261b, type: 2}
     - target: {fileID: 5053364214135573418, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
       propertyPath: game
       value: 
       objectReference: {fileID: 706955951}
-    - target: {fileID: 5053364214135573418, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
-      propertyPath: livesLeft
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 5053364214135573418, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
       propertyPath: livesText
       value: 

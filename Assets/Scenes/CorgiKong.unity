@@ -2962,11 +2962,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpiderDirectionChangeNode
   possibleDirections: 00000000
---- !u!1 &929778453 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6200891990535559834, guid: ff16fad018fe6f540a8bca2a58c5c884, type: 3}
-  m_PrefabInstance: {fileID: 934477253}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &934477253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3622,7 +3617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Game
   Ui: {fileID: 1093199821}
   playerStartLocation: {fileID: 562662101}
-  playerObject: {fileID: 929778453}
+  playerObject: {fileID: 355723783}
   isGameActive: 0
 --- !u!4 &1759170068
 Transform:
