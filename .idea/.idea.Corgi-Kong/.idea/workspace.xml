@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1efbd081-60a6-4c9e-a0a3-5fd87b99ace1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Corgi-Kong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Corgi-Kong/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/jonBeforeAndAfterClimb.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonBeforeAndAfterClimb.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/jonBeforeAndAfterClimbWithFlySwatter.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonBeforeAndAfterClimbWithFlySwatter.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/jonClimb.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonClimb.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/jonClimbWithFlySwatter.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonClimbWithFlySwatter.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/jonHitWithFlySwatter.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonHitWithFlySwatter.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/jonIdle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonIdle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/jonIdleWithFlySwatter.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonIdleWithFlySwatter.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/jonJump.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonJump.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/jonJumpWithFlySwatter.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonJumpWithFlySwatter.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/jonRun.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonRun.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/jonRunWithFlySwatter.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonRunWithFlySwatter.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/jonTouchSpider.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/jonTouchSpider.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Haley.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Haley.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameStart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Haley" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,7 +56,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.ai/mcp/mcp.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WinDetection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@bb329a87fcdc/Runtime/TMP/TMP_PackageResourceImporter.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
@@ -66,7 +83,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "EndTileCollider",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -122,6 +139,8 @@
       <option name="presentableId" value="Default" />
       <updated>1778012066597</updated>
       <workItem from="1778012067940" duration="6144000" />
+      <workItem from="1778531775842" duration="785000" />
+      <workItem from="1778616914311" duration="5708000" />
     </task>
     <task id="LOCAL-00001" summary="I Made the startScreen and play button">
       <option name="closed" value="true" />

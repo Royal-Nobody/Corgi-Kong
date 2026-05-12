@@ -6,12 +6,16 @@ using UnityEngine.Tilemaps;
 
 public class SpiderSpawner : MonoBehaviour
 {
+    public Game game;
     public GameObject SpiderPrefabs;
     
     private bool isWaitingtoSpawn = false;
     
     void Update()
     {
+        if (!game.isGameActive)
+            return;
+        
         if (!isWaitingtoSpawn)
         {
             StartCoroutine(SpawnAfterDelay());

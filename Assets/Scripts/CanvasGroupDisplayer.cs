@@ -8,7 +8,7 @@ public static class CanvasGroupDisplayer
         canvasGroup.interactable = true;
         canvasGroup.blocksRaycasts = true;
     }
-
+    
     public static void Hide(CanvasGroup canvasGroup)
     {
         canvasGroup.alpha = 0;

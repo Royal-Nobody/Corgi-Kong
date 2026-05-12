@@ -6,6 +6,7 @@ public class SpiderMovement : MonoBehaviour
     public MovementDirection startingMoveDirection;
     
     private Rigidbody2D rigidbody;
+    private Game game;
 
     private Vector2 movementDirectionVector;
     private MovementDirection currentMoveDirection;
@@ -20,12 +21,16 @@ public class SpiderMovement : MonoBehaviour
 
     private void Start()
     {
+        game = FindFirstObjectByType<Game>();
         currentMoveDirection = startingMoveDirection;
         rigidbody = GetComponent<Rigidbody2D>();
     }
 
     private void FixedUpdate()
     {
+        if (!game.isGameActive)
+            return;
+        
         Move();
     }
 
