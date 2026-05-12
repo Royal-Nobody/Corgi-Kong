@@ -8,7 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public Game game;
 
     public Text livesText;
-    public int livesLeft;
+    public int livesLeft = GameParameters.PlayerStartingLivesCount;
 
     private void Start()
     {
@@ -18,6 +18,7 @@ public class PlayerHealth : MonoBehaviour
     public void KillPlayer()
     {
         game.TriggerGameOver();
+        livesLeft = GameParameters.PlayerStartingLivesCount;
     }
 
     public void HitPlayer()

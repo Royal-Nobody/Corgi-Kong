@@ -963,7 +963,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1759170067}
         m_TargetAssemblyTypeName: Game, Assembly-CSharp
-        m_MethodName: TriggerGameOver
+        m_MethodName: PlayAgainButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -27,9 +27,8 @@ public class Game : MonoBehaviour
 
     public void PlayAgainButtonClicked()
     {
-        //Actually reset stuff, but for now we will just reload the scene.
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        //This effectively "resets" the game, by just reloading the scene from the beginning.
+        ResetGame();
+        Ui.HideGameOverScreen();
     }
 
     public void ClearMap()
@@ -45,7 +44,8 @@ public class Game : MonoBehaviour
 
     public void ResetGame()
     {
-
+        ClearMap();
+        isGameActive = true;
     }
 
     public GameObject[] ActiveSpiders()
