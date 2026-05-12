@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,6 +7,10 @@ public class Game : MonoBehaviour
 {
     public UI Ui;
 
+    public Transform playerStartLocation;
+
+    public GameObject playerObject;
+    
     public bool isGameActive = false;
     
     public void OnPlayButtonClicked()
@@ -22,8 +27,29 @@ public class Game : MonoBehaviour
 
     public void PlayAgainButtonClicked()
     {
-        //Actually reset stuff, but for now we will just reload the scene.
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        //This effectively "resets" the game, by just reloading the scene from the beginning.
+        ResetGame();
+        Ui.HideGameOverScreen();
+    }
+
+    public void ClearMap()
+    {
+        foreach (GameObject spider in ActiveSpiders())
+        {
+            Destroy(spider);
+        }
+        
+        playerObject.transform.position = playerStartLocation.position;
+        
+    }
+
+    public void ResetGame()
+    {
+        ClearMap();
+        isGameActive = true;
+    }
+
+    public GameObject[] ActiveSpiders()
+    {
+        return GameObject.FindGameObjectsWithTag("Spider");
     }
 }
