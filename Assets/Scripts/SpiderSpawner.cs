@@ -9,6 +9,7 @@ public class SpiderSpawner : MonoBehaviour
     public GameObject SpiderPrefabs;
     
     private bool isWaitingtoSpawn = false;
+    
     void Update()
     {
         if (!isWaitingtoSpawn)

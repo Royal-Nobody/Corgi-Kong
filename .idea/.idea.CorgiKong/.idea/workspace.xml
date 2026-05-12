@@ -6,13 +6,30 @@
   <component name="ChangeListManager">
     <list default="true" id="8537f7d1-49b9-4e03-94ed-4207529b11db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CorgiKong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CorgiKong/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Gopher.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Gopher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Gopher.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Gopher.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sandie.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sandie.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Dirt.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Dirt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Dirt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Dirt.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Tunnel.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Tunnel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Tunnel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Tunnel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/flySwatter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/flySwatter.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Clouds_0.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Clouds_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlySwatterPlacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FlySwatterPlacer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Dirt_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Dirt_1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Dirt_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Dirt_2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Dirt_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Dirt_3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Dirt_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Dirt_4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Dirt_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Dirt_5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Dirt_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Dirt_6.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Dirt_7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Dirt_7.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Dirt_8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Dirt_8.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TileAssets/New Tile Palette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/New Tile Palette.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_6.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_7.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileAssets/Tunnel_8.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="WinScreen" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,16 +60,13 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Animation.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Materials.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CanvasGroupDisplayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameParameters.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GamepadInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpiderSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TileAssets/Dirt_0.asset" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -73,7 +87,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Standalone Player.Start Unity.executor": "Run",
-    "git-widget-placeholder": "Rebasing master",
+    "git-widget-placeholder": "Rebasing FlySwatter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -252,31 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778392550782</updated>
     </task>
-    <task id="LOCAL-00015" summary="changed tunnel to a lighter color">
+    <task id="LOCAL-00015" summary="xml">
       <option name="closed" value="true" />
-      <created>1778525154806</created>
+      <created>1778393859738</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1778525154806</updated>
+      <updated>1778393859738</updated>
     </task>
-    <task id="LOCAL-00016" summary="lighter tunnel">
-      <option name="closed" value="true" />
-      <created>1778525276069</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1778525276069</updated>
-    </task>
-    <task id="LOCAL-00017" summary="spider spawning fixed">
-      <option name="closed" value="true" />
-      <created>1778551749959</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1778551749959</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,13 +311,10 @@
     <MESSAGE value="tile map" />
     <MESSAGE value="Added clouds to the sky" />
     <MESSAGE value="Merge branch 'master' into GameOver&#10;&#10;# Conflicts:&#10;#&#9;.idea/.idea.CorgiKong/.idea/workspace.xml&#10;#&#9;Assets/Scenes/CorgiKong.unity&#10;#&#9;Assets/Scripts/CanvasGroupDisplayer.cs.meta&#10;#&#9;Assets/TextMesh Pro.meta&#10;#&#9;Assets/TextMesh Pro/Fonts.meta&#10;#&#9;Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt&#10;#&#9;Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta&#10;#&#9;Assets/TextMesh Pro/Fonts/LiberationSans.ttf&#10;#&#9;Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta&#10;#&#9;Assets/TextMesh Pro/Resources.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta&#10;#&#9;Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt&#10;#&#9;Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta&#10;#&#9;Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt&#10;#&#9;Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Sprite Assets.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset&#10;#&#9;Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Style Sheets.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset&#10;#&#9;Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta&#10;#&#9;Assets/TextMesh Pro/Resources/TMP Settings.asset.meta&#10;#&#9;Assets/TextMesh Pro/Shaders.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl&#10;#&#9;Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Sprite.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro.cginc&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro.cginc.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta&#10;#&#9;Assets/TextMesh Pro/Sprites.meta&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne.json&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne.json.meta&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne.png&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" />
-    <MESSAGE value="xml" />
     <MESSAGE value="StartScreen" />
     <MESSAGE value="WinScreen" />
-    <MESSAGE value="changed tunnel to a lighter color" />
-    <MESSAGE value="lighter tunnel" />
-    <MESSAGE value="spider spawning fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="spider spawning fixed" />
+    <MESSAGE value="xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -3,14 +3,18 @@ using UnityEngine;
 public class FlySwatterPlacer : MonoBehaviour
 {
     public GameObject FlySwatterPrefab;
-    
-    void Update()
+    public Transform[] SpawnPoints;
+
+    void Start()
     {
         Place();
     }
-
+    
     private void Place()
     {
-        Instantiate(FlySwatterPrefab, transform.position, transform.rotation);
+        for (int i = 0; i < SpawnPoints.Length; i++)
+        {
+            Instantiate(FlySwatterPrefab, SpawnPoints[i].position, Quaternion.identity);
+        }
     }
 }
