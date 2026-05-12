@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Game game;
     public Rigidbody2D rigidbody;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
@@ -15,6 +16,9 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move(Vector2 direction, object inputDevice)
     {
+        if (!game.isGameActive)
+            return;
+            
         SetPriorityInputDevice(direction, inputDevice);
         
         if (IsNotUsingPriorityInputDevice(inputDevice))
@@ -27,6 +31,9 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(object inputDevice)
     {
+        if (!game.isGameActive)
+            return;
+        
         //Early return if the player is not touching the ground
         if (!groundDetection.IsGrounded())
             return;
