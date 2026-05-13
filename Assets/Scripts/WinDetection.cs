@@ -2,18 +2,13 @@ using UnityEngine;
 
 public class WinDetection : MonoBehaviour
 {
-    public GameObject winScreen;
+    public Game game;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("EndTile"))
         {
-            WinGame();
+            game.TriggerWinScreen();
         }
-    }
-
-    public void WinGame()
-    {
-        winScreen.SetActive(true);
     }
 }
