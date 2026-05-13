@@ -3,14 +3,14 @@ using UnityEngine;
 
 public class GroundDetector : MonoBehaviour
 {
-    private bool isGrounded;
+    public bool isGrounded;
     
     public bool IsGrounded()
     {
         return isGrounded;
     }
     
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Ground"))
         {

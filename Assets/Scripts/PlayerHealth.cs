@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public Game game;
     public Animator animator;
+    public SoundEffects sounds;
     
     public Text livesText;
     public int livesLeft = GameParameters.PlayerStartingLivesCount;
@@ -27,6 +28,8 @@ public class PlayerHealth : MonoBehaviour
     public void HitPlayer()
     {
         livesLeft--;
+     
+        sounds.PlayJonSound(SoundEffects.JonSoundType.Die, false);
         
         if (livesLeft <= 0)
         {

@@ -8,6 +8,7 @@ public class SpiderSpawner : MonoBehaviour
 {
     public Game game;
     public GameObject SpiderPrefabs;
+    public SoundEffects sounds;
     
     private bool isWaitingtoSpawn = false;
     
@@ -33,6 +34,7 @@ public class SpiderSpawner : MonoBehaviour
 
     private void Spawn()
     {
+        sounds.PlaySpiderRunSound();
         Instantiate(SpiderPrefabs, transform.position, Quaternion.identity);
     }
 }

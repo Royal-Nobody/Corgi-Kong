@@ -9,16 +9,17 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public SpriteRenderer spriteRenderer;
     public GroundDetector groundDetection;
+    public SoundEffects sounds;
 
     private object priorityDevice = null;
 
     private bool isTouchingLadder = false;
     public bool isJumping = false;
     public bool isClimbingLadder = false;
-
+    
     private void Update()
     {
-        Debug.Log(isJumping);
+        CheckForSounds();
     }
 
     public void Move(Vector2 direction, object inputDevice)
@@ -36,6 +37,27 @@ public class PlayerMovement : MonoBehaviour
         ApplyMovement(direction);
     }
 
+    private void CheckForSounds()
+    {
+        if (Mathf.Abs(rigidbody.linearVelocityX) > 0.1 && !isClimbingLadder && groundDetection.IsGrounded())
+        {
+            sounds.PlayJonSound(SoundEffects.JonSoundType.Run, false);
+        }
+        else
+        {
+            sounds.StopRunningSound();
+        }
+
+        if (isClimbingLadder)
+        {
+            sounds.PlayJonSound(SoundEffects.JonSoundType.Climb, false);
+        }
+        else
+        {
+            sounds.StopClimbingSound();
+        }
+    }
+
     public void Jump(object inputDevice)
     {
         if (!game.isGameActive)
@@ -50,6 +72,7 @@ public class PlayerMovement : MonoBehaviour
         if (IsNotUsingPriorityInputDevice(inputDevice))
             return;
 
+        sounds.PlayJonSound(SoundEffects.JonSoundType.Jump, false);
         isJumping = true;
         StartCoroutine(CheckIfJumpingStill());
         ApplyJump();
@@ -105,17 +128,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void SetPriorityInputDevice(Vector2 direction, object inputDevice)
     {
-        if (IsMoving(direction))
+        if (IsMovingInThisDirection(direction))
         {
             priorityDevice = inputDevice;
         }
     }
 
-    private bool IsMoving(Vector2 direction)
+    private bool IsMovingInThisDirection(Vector2 direction)
     {
         return direction != Vector2.zero;
     }
-
+    
     private void ApplyMovement(Vector2 direction)
     {
         //If the player presses W or S when colliding with a ladder, they will enter a climbable ladder state.
@@ -170,7 +193,8 @@ public class PlayerMovement : MonoBehaviour
 
         foreach (GameObject ladderPlatformCollider in ladderPlatformColliders)
         {
-            Physics2D.IgnoreCollision(ladderPlatformCollider.GetComponent<Collider2D>().GetComponent<Collider2D>(), GetComponent<Collider2D>(), true);
+            Collider2D collider = ladderPlatformCollider.GetComponentInChildren<Collider2D>();
+            Physics2D.IgnoreCollision(collider, GetComponent<Collider2D>(), true);
         }
     }
     
@@ -180,7 +204,8 @@ public class PlayerMovement : MonoBehaviour
 
         foreach (GameObject ladderPlatformCollider in ladderPlatformColliders)
         {
-            Physics2D.IgnoreCollision(ladderPlatformCollider.GetComponent<Collider2D>().GetComponent<Collider2D>(), GetComponent<Collider2D>(), false);
+            Collider2D collider = ladderPlatformCollider.GetComponentInChildren<Collider2D>();
+            Physics2D.IgnoreCollision(collider, GetComponent<Collider2D>(), false);
         }
     }
 }

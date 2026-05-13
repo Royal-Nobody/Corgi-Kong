@@ -1,5 +1,37 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &344295292459494818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1637003253682374095}
+  m_Layer: 0
+  m_Name: Effector Holder
+  m_TagString: Effector
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1637003253682374095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344295292459494818}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.694, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6399631455715360636}
+  m_Father: {fileID: 3329458852138423459}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2739241413908693241
 GameObject:
   m_ObjectHideFlags: 0
@@ -13,7 +45,7 @@ GameObject:
   - component: {fileID: 1614290210723479115}
   m_Layer: 0
   m_Name: Ladder Platform
-  m_TagString: Effector
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,11 +59,11 @@ Transform:
   m_GameObject: {fileID: 2739241413908693241}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0046884306, y: 0.985, z: 0}
-  m_LocalScale: {x: 0.46884352, y: 0.7562649, z: 0.65227854}
+  m_LocalPosition: {x: 0.0046884306, y: 0.29099995, z: 0}
+  m_LocalScale: {x: 0.4688435, y: 0.756265, z: 0.65227854}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3329458852138423459}
+  m_Father: {fileID: 1637003253682374095}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &4647814109966408815
 PlatformEffector2D:
@@ -129,7 +161,7 @@ Transform:
   m_LocalScale: {x: 2.1329076, y: 1.4301865, z: 1.5330874}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6399631455715360636}
+  - {fileID: 1637003253682374095}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6296716939604378223
