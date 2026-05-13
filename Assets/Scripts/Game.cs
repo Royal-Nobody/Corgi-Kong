@@ -12,6 +12,13 @@ public class Game : MonoBehaviour
     public GameObject playerObject;
     
     public bool isGameActive = false;
+
+    public Music Music;
+
+    public void Start()
+    {
+        Music.PlayThemeMusic();
+    }
     
     public void OnPlayButtonClicked()
     {
