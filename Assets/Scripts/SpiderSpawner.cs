@@ -6,6 +6,7 @@ using UnityEngine.Tilemaps;
 
 public class SpiderSpawner : MonoBehaviour
 {
+    public Sounds Sounds;
     public Game game;
     public GameObject SpiderPrefabs;
     
@@ -34,5 +35,6 @@ public class SpiderSpawner : MonoBehaviour
     private void Spawn()
     {
         Instantiate(SpiderPrefabs, transform.position, Quaternion.identity);
+        Sounds.PlaySpiderRunSound();
     }
 }
