@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isTouchingLadder = false;
     public bool isJumping = false;
     public bool isClimbingLadder = false;
+    public bool hasFlySwatter = false;
 
     private void Update()
     {
@@ -153,6 +154,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isTouchingLadder = true;
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -162,6 +164,12 @@ public class PlayerMovement : MonoBehaviour
             isTouchingLadder = false;
             isClimbingLadder = false;
         }    
+        if (other.CompareTag("FlySwatter"))
+        {
+            hasFlySwatter = true;
+
+            other.gameObject.SetActive(false);
+        }
     }
     
     private void DisableLadderPlatformCollisions()
@@ -183,4 +191,5 @@ public class PlayerMovement : MonoBehaviour
             Physics2D.IgnoreCollision(ladderPlatformCollider.GetComponent<Collider2D>().GetComponent<Collider2D>(), GetComponent<Collider2D>(), false);
         }
     }
+
 }
