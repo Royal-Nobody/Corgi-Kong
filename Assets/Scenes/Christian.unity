@@ -5210,6 +5210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UI
   StartScreenCanvasGroup: {fileID: 1631536130}
   GameOverCanvasGroup: {fileID: 1684305002}
+  WinCanvasGroup: {fileID: 0}
 --- !u!4 &1854684083
 Transform:
   m_ObjectHideFlags: 0
