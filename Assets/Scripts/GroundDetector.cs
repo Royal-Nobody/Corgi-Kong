@@ -4,7 +4,7 @@ using UnityEngine;
 public class GroundDetector : MonoBehaviour
 {
     private bool isGrounded;
-
+    
     public bool IsGrounded()
     {
         return isGrounded;
@@ -24,6 +24,5 @@ public class GroundDetector : MonoBehaviour
         {
             isGrounded = false;
         }
-        
     }
 }

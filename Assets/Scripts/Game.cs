@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using Unity.VectorGraphics;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
@@ -22,18 +24,21 @@ public class Game : MonoBehaviour
     
     public void OnPlayButtonClicked()
     {
+        HideMouseCursor();
         isGameActive = true;
         Ui.HideStartScreen();
     }
 
     public void TriggerGameOver()
     {
+        ShowMouseCursor();
         isGameActive = false;
         Ui.ShowGameOverScreen();
     }
 
     public void PlayAgainButtonClicked()
     {
+        HideMouseCursor();
         ResetGame();
         Ui.HideGameOverScreen();
     }
@@ -51,6 +56,7 @@ public class Game : MonoBehaviour
 
     public void ResetGame()
     {
+        HideMouseCursor();
         ClearMap();
         isGameActive = true;
     }
@@ -58,5 +64,17 @@ public class Game : MonoBehaviour
     public GameObject[] ActiveSpiders()
     {
         return GameObject.FindGameObjectsWithTag("Spider");
+    }
+    
+    public void HideMouseCursor()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void ShowMouseCursor()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 }
