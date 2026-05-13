@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
@@ -6,7 +7,8 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     public Game game;
-
+    public Animator animator;
+    
     public Text livesText;
     public int livesLeft = GameParameters.PlayerStartingLivesCount;
 
@@ -17,6 +19,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void KillPlayer()
     {
+        StartCoroutine(DeathAnimation());
         game.TriggerGameOver();
         livesLeft = GameParameters.PlayerStartingLivesCount;
     }
@@ -29,9 +32,8 @@ public class PlayerHealth : MonoBehaviour
         {
             KillPlayer();
         }
-        
-        game.ClearMap();
-        UpdateTexts();
+
+        StartCoroutine(DeathAnimation());
     }
     
     private void UpdateTexts()
@@ -45,5 +47,18 @@ public class PlayerHealth : MonoBehaviour
         {
             HitPlayer();
         }
+    }
+
+    IEnumerator DeathAnimation()
+    {
+        game.isGameActive = false;
+        animator.SetBool("PlayerDied", true);
+
+        yield return new WaitForSeconds(1.5f);
+        
+        game.ClearMap();
+        UpdateTexts();
+        animator.SetBool("PlayerDied", false);
+        game.isGameActive = true;
     }
 }

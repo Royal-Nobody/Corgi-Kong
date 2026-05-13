@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -12,13 +13,19 @@ public class PlayerMovement : MonoBehaviour
     private object priorityDevice = null;
 
     private bool isTouchingLadder = false;
+    public bool isJumping = false;
     public bool isClimbingLadder = false;
+
+    private void Update()
+    {
+        Debug.Log(isJumping);
+    }
 
     public void Move(Vector2 direction, object inputDevice)
     {
         if (!game.isGameActive)
             return;
-            
+        
         SetPriorityInputDevice(direction, inputDevice);
         
         if (IsNotUsingPriorityInputDevice(inputDevice))
@@ -42,13 +49,29 @@ public class PlayerMovement : MonoBehaviour
     
         if (IsNotUsingPriorityInputDevice(inputDevice))
             return;
-        
+
+        isJumping = true;
+        StartCoroutine(CheckIfJumpingStill());
         ApplyJump();
     }
 
     private void ApplyJump()
     {
         rigidbody.AddForce(Vector2.up * GameParameters.PlayerJumpPower, ForceMode2D.Impulse);
+    }
+
+    IEnumerator CheckIfJumpingStill()
+    {
+        yield return new WaitForSeconds(0.5f);
+        while (isJumping)
+        {
+            if (groundDetection.IsGrounded())
+            {
+                isJumping = false;
+            }
+
+            yield return null;
+        }
     }
 
     private bool IsNotUsingPriorityInputDevice(object inputDevice)
@@ -120,6 +143,8 @@ public class PlayerMovement : MonoBehaviour
     private void Animate(Vector2 direction)
     {
         animator.SetFloat("Horizontal", Mathf.Abs(direction.x));
+        animator.SetBool("IsClimbing", isClimbingLadder);
+        animator.SetBool("IsJumping", isJumping);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
