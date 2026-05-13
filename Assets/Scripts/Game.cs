@@ -41,6 +41,7 @@ public class Game : MonoBehaviour
     {
         ResetGame();
         Ui.HideGameOverScreen();
+        Ui.HideWinScreen();
     }
 
     public void ClearMap()
