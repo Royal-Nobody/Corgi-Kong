@@ -6,6 +6,7 @@ public class UI : MonoBehaviour
     public CanvasGroup GameOverCanvasGroup;
     public CanvasGroup WinCanvasGroup;
     public WinScreenUIEffects WinScreenEffects;
+    public GameOverUIEffects GameOverEffects;
     
     public void ShowStartScreen()
     {
@@ -21,23 +22,24 @@ public class UI : MonoBehaviour
         
         CanvasGroupDisplayer.Hide(WinCanvasGroup);
         CanvasGroupDisplayer.Hide(StartScreenCanvasGroup);
+        
+        if (GameOverEffects == null)
+        {
+            Debug.Log("GameOverEffects is NOT assigned");
+            return;
+        }
+
+        Debug.Log("Calling GameOver.PlayGameOverEffects()");
+        GameOverEffects.PlayGameOverEffects();
     }
 
     public void ShowWinScreen()
     {
-        Debug.Log("ShowWinScreen");
         CanvasGroupDisplayer.Show(WinCanvasGroup);
         
         CanvasGroupDisplayer.Hide(GameOverCanvasGroup);
         CanvasGroupDisplayer.Hide(StartScreenCanvasGroup);
 
-        if (WinScreenEffects == null)
-        {
-            Debug.Log("WinScreenEffects is NOT assigned");
-            return;
-        }
-
-        Debug.Log("Calling WinScreenEffects.PlayEffects()");
         WinScreenEffects.PlayEffects();
     }
     

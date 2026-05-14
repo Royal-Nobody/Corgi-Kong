@@ -23,7 +23,6 @@ public class WinScreenUIEffects : MonoBehaviour
     }
     public void PlayEffects()
     {
-        Debug.Log("Win screen effects are playing");
 
         MoveEverythingOffScreen();
         StartCoroutine(PlayFlyinAnimations());

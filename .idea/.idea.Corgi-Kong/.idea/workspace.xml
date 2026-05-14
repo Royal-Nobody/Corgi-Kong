@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1efbd081-60a6-4c9e-a0a3-5fd87b99ace1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Corgi-Kong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Corgi-Kong/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIEffects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIEffects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WinDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WinDetection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WinScreenUIEffects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WinScreenUIEffects.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +19,12 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="WinScreen" />
+    <option name="BRANCH" value="UIEffects" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="FlyswatterAttackState" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Demigiant.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Haley.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameOverUIEffects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WinDetection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WinScreenUIEffects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Recovery/0.unity" root0="FORCE_HIGHLIGHTING" />
@@ -78,7 +78,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "UIEffects",
+    "git-widget-placeholder": "GameOverUIEffects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -136,6 +136,7 @@
       <workItem from="1778012067940" duration="6144000" />
       <workItem from="1778531775842" duration="785000" />
       <workItem from="1778616914311" duration="17069000" />
+      <workItem from="1778794948841" duration="3258000" />
     </task>
     <task id="LOCAL-00001" summary="I Made the startScreen and play button">
       <option name="closed" value="true" />
@@ -177,7 +178,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778704369043</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added UIeffects to the Win Screen">
+      <option name="closed" value="true" />
+      <created>1778729346440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1778729346440</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Forgot to commit with the added UIeffect to the WinScreen">
+      <option name="closed" value="true" />
+      <created>1778729376256</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1778729376256</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +226,9 @@
     <MESSAGE value="Created WinScreen" />
     <MESSAGE value="Project Default" />
     <MESSAGE value="Polished the StartScreen with added UI effects where the Corgi Kong and play button swing in. Added the Win Screen and made it so it pops up when You hit the EndTile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polished the StartScreen with added UI effects where the Corgi Kong and play button swing in. Added the Win Screen and made it so it pops up when You hit the EndTile" />
+    <MESSAGE value="added UIeffects to the Win Screen" />
+    <MESSAGE value="Forgot to commit with the added UIeffect to the WinScreen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forgot to commit with the added UIeffect to the WinScreen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
