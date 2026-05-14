@@ -37,6 +37,7 @@ public class Game : MonoBehaviour
     }
     public void TriggerWinScreen()
     {
+        ShowMouseCursor();
         isGameActive = false;
         Ui.ShowWinScreen();
     }
