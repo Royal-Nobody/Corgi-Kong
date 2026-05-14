@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1efbd081-60a6-4c9e-a0a3-5fd87b99ace1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIEffects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIEffects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WinDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WinDetection.cs" afterDir="false" />
-    </list>
+    <list default="true" id="1efbd081-60a6-4c9e-a0a3-5fd87b99ace1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "UIEffects",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -177,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778704369043</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Moved Win Screen Win Title and corgi resqued title to the right spot. Made sure it works by moving the WinScreenUIEffects into UI and connecting everything.">
+      <option name="closed" value="true" />
+      <created>1778801814801</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1778801814801</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +211,8 @@
     <MESSAGE value="Created WinScreen" />
     <MESSAGE value="Project Default" />
     <MESSAGE value="Polished the StartScreen with added UI effects where the Corgi Kong and play button swing in. Added the Win Screen and made it so it pops up when You hit the EndTile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polished the StartScreen with added UI effects where the Corgi Kong and play button swing in. Added the Win Screen and made it so it pops up when You hit the EndTile" />
+    <MESSAGE value="Moved Win Screen Win Title and corgi resqued title to the right spot. Made sure it works by moving the WinScreenUIEffects into UI and connecting everything." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved Win Screen Win Title and corgi resqued title to the right spot. Made sure it works by moving the WinScreenUIEffects into UI and connecting everything." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
