@@ -13,9 +13,11 @@ public class PlayerMovement : MonoBehaviour
 
     private object priorityDevice = null;
 
+    private bool canPickupFlaySwatter = false;
     private bool isTouchingLadder = false;
     public bool isJumping = false;
     public bool isClimbingLadder = false;
+    public bool hasFlySwatter;
     
     private void Update()
     {
@@ -76,6 +78,19 @@ public class PlayerMovement : MonoBehaviour
         isJumping = true;
         StartCoroutine(CheckIfJumpingStill());
         ApplyJump();
+
+        if (canPickupFlaySwatter)
+        {
+            hasFlySwatter = true;
+            canPickupFlaySwatter = false;
+            GameObject swatter = GameObject.FindGameObjectWithTag("FlySwatter");
+            if (swatter != null)
+            {
+                swatter.SetActive(false);
+            }
+            
+            Debug.Log("Pickup Swatter");
+        }
     }
 
     private void ApplyJump()
@@ -176,6 +191,11 @@ public class PlayerMovement : MonoBehaviour
         {
             isTouchingLadder = true;
         }
+
+        if (other.CompareTag("FlySwatter"))
+        {
+            canPickupFlaySwatter = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -184,7 +204,12 @@ public class PlayerMovement : MonoBehaviour
         {
             isTouchingLadder = false;
             isClimbingLadder = false;
-        }    
+        }
+
+        if (other.CompareTag("FlySwatter"))
+        {
+            canPickupFlaySwatter = false;
+        }
     }
     
     private void DisableLadderPlatformCollisions()
