@@ -29,7 +29,12 @@ public class SpiderMovement : MonoBehaviour
     private void FixedUpdate()
     {
         if (!game.isGameActive)
-            return;
+        {
+            if (!game.allowSpiderSpawning)
+            {
+                return;
+            }
+        }
         
         Move();
     }
@@ -62,5 +67,13 @@ public class SpiderMovement : MonoBehaviour
     public void SwitchDirection(MovementDirection desiredDirection)
     {
         currentMoveDirection = desiredDirection;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Spider Destroyer"))
+        {
+            gameObject.tag = "Destroy This Spider";
+        }
     }
 }

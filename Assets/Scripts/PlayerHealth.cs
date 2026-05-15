@@ -44,7 +44,7 @@ public class PlayerHealth : MonoBehaviour
     
     public void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Spider"))
+        if (other.gameObject.CompareTag("Spider") || other.gameObject.CompareTag("Destroy This Spider"))
         {
             if(canGetHit)
             {

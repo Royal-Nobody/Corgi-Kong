@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Unity.VectorGraphics;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -14,8 +15,10 @@ public class Game : MonoBehaviour
     public GameObject playerObject;
     
     public bool isGameActive = false;
+    public bool allowSpiderSpawning = false;
 
     public Music Music;
+    public Cutscene cutscene;
 
     public void Start()
     {
@@ -25,7 +28,7 @@ public class Game : MonoBehaviour
     public void OnPlayButtonClicked()
     {
         HideMouseCursor();
-        isGameActive = true;
+        cutscene.PlayIntroCutscene();
         Ui.HideStartScreen();
     }
 
@@ -46,13 +49,26 @@ public class Game : MonoBehaviour
     {
         HideMouseCursor();
         ResetGame();
+        isGameActive = false;
+        cutscene.PlayIntroCutscene();
         Ui.HideGameOverScreen();
         Ui.HideWinScreen();
     }
 
+    public void RestartGameClearMap()
+    {
+        foreach (GameObject spider in AllActiveSpiders())
+        {
+            Destroy(spider);
+        }
+        
+        playerObject.transform.position = playerStartLocation.position;
+        
+    }
+    
     public void ClearMap()
     {
-        foreach (GameObject spider in ActiveSpiders())
+        foreach (GameObject spider in ActiveSpidersToKill())
         {
             Destroy(spider);
         }
@@ -64,13 +80,23 @@ public class Game : MonoBehaviour
     public void ResetGame()
     {
         HideMouseCursor();
-        ClearMap();
+        RestartGameClearMap();
         isGameActive = true;
     }
 
-    public GameObject[] ActiveSpiders()
+    public GameObject[] ActiveSpidersToKill()
     {
-        return GameObject.FindGameObjectsWithTag("Spider");
+        return GameObject.FindGameObjectsWithTag("Destroy This Spider");
+    }
+    
+    public GameObject[] AllActiveSpiders()
+    {
+        List<GameObject> spiders = new List<GameObject>();
+        
+        spiders.AddRange(GameObject.FindGameObjectsWithTag("Destroy This Spider"));
+        spiders.AddRange(GameObject.FindGameObjectsWithTag("Spider"));
+        
+        return spiders.ToArray();
     }
     
     public void HideMouseCursor()
