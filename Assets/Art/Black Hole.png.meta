@@ -1,22 +1,31 @@
 fileFormatVersion: 2
-guid: f497073edc2034209b6f5159cfac4e19
+guid: 3fa1a7b50bee70c45b78738c5e35d7cc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7892608941395121364
-    second: jonJumpWithFlySwatter_0
+      213: 5309788771701705700
+    second: black hole_0
   - first:
-      213: -6187337120770039855
-    second: jonJumpWithFlySwatter_1
+      213: -6676889857868802381
+    second: black hole_1
   - first:
-      213: -261173458061900838
-    second: jonJumpWithFlySwatter_2
+      213: -2073027374262704469
+    second: black hole_2
   - first:
-      213: 6580248081221522813
-    second: jonJumpWithFlySwatter_3
+      213: 440848430582060744
+    second: black hole_3
   - first:
-      213: -7756383127759497481
-    second: jonJumpWithFlySwatter_4
+      213: 3680796499947032844
+    second: black hole_4
+  - first:
+      213: -494174997830045633
+    second: black hole_5
+  - first:
+      213: 5528038086244593129
+    second: black hole_6
+  - first:
+      213: -3587427676589710588
+    second: black hole_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -86,7 +95,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -112,7 +121,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -125,111 +134,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jonJumpWithFlySwatter_0
+      name: black hole_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 0
-        width: 25
+        x: 13
+        y: 11
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb43a161c820b940800000000000000
+      internalID: 5309788771701705700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black hole_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 11
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b65259cc0ce653a0800000000000000
+      internalID: -6676889857868802381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black hole_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 11
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6296326902b33e0800000000000000
+      internalID: -2073027374262704469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black hole_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 11
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6d1a8df453e1600800000000000000
+      internalID: 440848430582060744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black hole_4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 11
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0118dd3ae0d41330800000000000000
+      internalID: 3680796499947032844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black hole_5
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 12
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30f57d25765429f0800000000000000
+      internalID: -494174997830045633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black hole_6
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 12
+        width: 63
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d49deee30e288d60800000000000000
-      internalID: 7892608941395121364
+      spriteID: 9ed6073c95987bc40800000000000000
+      internalID: 5528038086244593129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jonJumpWithFlySwatter_1
+      name: black hole_7
       rect:
         serializedVersion: 2
-        x: 55
-        y: 0
-        width: 31
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1dfd9eaaba9222aa0800000000000000
-      internalID: -6187337120770039855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jonJumpWithFlySwatter_2
-      rect:
-        serializedVersion: 2
-        x: 93
-        y: 12
-        width: 31
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad3c577af10206cf0800000000000000
-      internalID: -261173458061900838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jonJumpWithFlySwatter_3
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 0
-        width: 32
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d75972724ccb15b50800000000000000
-      internalID: 6580248081221522813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jonJumpWithFlySwatter_4
-      rect:
-        serializedVersion: 2
-        x: 184
-        y: 0
-        width: 17
+        x: 611
+        y: 13
+        width: 64
         height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f6df00f3aacb5490800000000000000
-      internalID: -7756383127759497481
+      spriteID: 403277ff885e63ec0800000000000000
+      internalID: -3587427676589710588
       vertices: []
       indices: 
       edges: []
@@ -238,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8e92a8aae8e254aa2b0058a82afd56b3
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -246,15 +321,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      jonJumpWithFlySwatter_0: 7892608941395121364
-      jonJumpWithFlySwatter_1: -6187337120770039855
-      jonJumpWithFlySwatter_2: -261173458061900838
-      jonJumpWithFlySwatter_3: 6580248081221522813
-      jonJumpWithFlySwatter_4: -7756383127759497481
+      black hole_0: 5309788771701705700
+      black hole_1: -6676889857868802381
+      black hole_2: -2073027374262704469
+      black hole_3: 440848430582060744
+      black hole_4: 3680796499947032844
+      black hole_5: -494174997830045633
+      black hole_6: 5528038086244593129
+      black hole_7: -3587427676589710588
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
