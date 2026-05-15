@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
+using Update = Unity.VisualScripting.Update;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class PlayerHealth : MonoBehaviour
     public Text livesText;
     public int livesLeft = GameParameters.PlayerStartingLivesCount;
 
+    public bool canGetHit = true;
+
     private void Start()
     {
         UpdateTexts();
@@ -20,9 +23,9 @@ public class PlayerHealth : MonoBehaviour
 
     public void KillPlayer()
     {
-        StartCoroutine(DeathAnimation());
         game.TriggerGameOver();
         livesLeft = GameParameters.PlayerStartingLivesCount;
+        UpdateTexts();
     }
 
     public void HitPlayer()
@@ -30,11 +33,6 @@ public class PlayerHealth : MonoBehaviour
         livesLeft--;
      
         sounds.PlayJonSound(SoundEffects.JonSoundType.Die, false);
-        
-        if (livesLeft <= 0)
-        {
-            KillPlayer();
-        }
 
         StartCoroutine(DeathAnimation());
     }
@@ -48,12 +46,16 @@ public class PlayerHealth : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Spider"))
         {
-            HitPlayer();
+            if(canGetHit)
+            {
+                HitPlayer();
+            }
         }
     }
 
     IEnumerator DeathAnimation()
     {
+        canGetHit = false;
         game.isGameActive = false;
         animator.SetBool("PlayerDied", true);
 
@@ -63,5 +65,11 @@ public class PlayerHealth : MonoBehaviour
         UpdateTexts();
         animator.SetBool("PlayerDied", false);
         game.isGameActive = true;
+        
+        if (livesLeft <= 0)
+        {
+            KillPlayer();
+        }
+        canGetHit = true;
     }
 }
