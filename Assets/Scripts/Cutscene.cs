@@ -21,6 +21,7 @@ public class Cutscene : MonoBehaviour
 
     IEnumerator IntroCutscene()
     {
+        player.GetComponent<PlayerMovement>().TurnOffStateMachines();
         player.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
         var vector3 = player.transform.position;
         vector3.y = player.transform.position.y + 4f;
@@ -33,6 +34,9 @@ public class Cutscene : MonoBehaviour
         GameParameters.spiderSpeed = preserveSpeed * 2.75f;
         GameParameters.SpiderMinimumSpawnDelay = 0.25f;
         GameParameters.SpiderMaximumSpawnDelay = 0.75f;
+        player.GetComponent<Animator>().SetFloat("Horizontal", 0f);
+        player.GetComponent<Animator>().SetBool("IsClimbing", false);
+        player.GetComponent<Animator>().SetBool("IsJumping", false);
         player.GetComponent<Animator>().SetBool("IsSpinning", true);
         player.transform.DOMoveY(player.transform.position.y - 3.5f, 5, false)
             .SetEase(Ease.Linear);
