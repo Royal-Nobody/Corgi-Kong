@@ -3,7 +3,7 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIEffects : MonoBehaviour
+public class StartScreenUIEffects : MonoBehaviour
 {
     public Canvas MainCanvas;
     public Image TitleImage;
