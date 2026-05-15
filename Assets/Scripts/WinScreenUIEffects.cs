@@ -25,11 +25,11 @@ public class WinScreenUIEffects : MonoBehaviour
     {
         Debug.Log("Win screen effects are playing");
 
-        MoveEverythingOffScreen();
-        StartCoroutine(PlayFlyinAnimations());
+        MoveEverythingOffScreen_WinScreen();
+        StartCoroutine(PlayFlyinAnimations_WinScreen());
     }
 
-    private IEnumerator PlayFlyinAnimations()
+    private IEnumerator PlayFlyinAnimations_WinScreen()
     {
         AnimateWinTitleImage();
         yield return new WaitForSeconds(1f);
@@ -56,7 +56,7 @@ public class WinScreenUIEffects : MonoBehaviour
             .SetEase(Ease.OutBounce);
     }
 
-    private void MoveEverythingOffScreen()
+    private void MoveEverythingOffScreen_WinScreen()
     {
         float offScreenRight = MainCanvas.GetComponent<RectTransform>().rect.width;
         float offScreenLeft = -MainCanvas.GetComponent<RectTransform>().rect.width;

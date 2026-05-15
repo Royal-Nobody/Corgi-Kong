@@ -15,7 +15,12 @@ public class SpiderSpawner : MonoBehaviour
     void Update()
     {
         if (!game.isGameActive)
-            return;
+        {
+            if (!game.allowSpiderSpawning)
+            {
+                return;
+            }
+        }
         
         if (!isWaitingtoSpawn)
         {
