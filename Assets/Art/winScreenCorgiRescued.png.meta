@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: eeace35a15ce04842b569e5dee339966
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2856063132747840053
+    second: winScreenCorgiRescued_0
+  - first:
+      213: 1006538467637231270
+    second: winScreenCorgiRescued_1
+  - first:
+      213: 7606050383990599711
+    second: winScreenCorgiRescued_2
+  - first:
+      213: 4828182805732131474
+    second: winScreenCorgiRescued_3
+  - first:
+      213: -3665446611069527153
+    second: winScreenCorgiRescued_4
+  - first:
+      213: -2827351583782547902
+    second: winScreenCorgiRescued_5
+  - first:
+      213: 5085165168234503654
+    second: winScreenCorgiRescued_6
+  - first:
+      213: -3745809141147536552
+    second: winScreenCorgiRescued_7
+  - first:
+      213: 6973382438528303841
+    second: winScreenCorgiRescued_8
+  - first:
+      213: -2150012339895335058
+    second: winScreenCorgiRescued_9
+  - first:
+      213: -3531582878738187406
+    second: winScreenCorgiRescued_10
+  - first:
+      213: -6520004188886712485
+    second: winScreenCorgiRescued_11
+  - first:
+      213: 1850401022463068748
+    second: winScreenCorgiRescued_12
+  - first:
+      213: 4503297273868273959
+    second: winScreenCorgiRescued_13
+  - first:
+      213: 1089481130631615369
+    second: winScreenCorgiRescued_14
+  - first:
+      213: 3912803109253976696
+    second: winScreenCorgiRescued_15
+  - first:
+      213: -3702154483005079887
+    second: winScreenCorgiRescued_16
+  - first:
+      213: 7929981826546864221
+    second: winScreenCorgiRescued_17
+  - first:
+      213: -3328439538839790750
+    second: winScreenCorgiRescued_18
+  - first:
+      213: -883985145233787183
+    second: winScreenCorgiRescued_19
+  - first:
+      213: -6913918805846123940
+    second: winScreenCorgiRescued_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 76
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5c97c76b93d58d0800000000000000
+      internalID: -2856063132747840053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 77
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae78484761f7fd00800000000000000
+      internalID: 1006538467637231270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 77
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10bb71968e1e8960800000000000000
+      internalID: 7606050383990599711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 77
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29200565ea6210340800000000000000
+      internalID: 4828182805732131474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 77
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b9a044ab7b12dc0800000000000000
+      internalID: -3665446611069527153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 77
+        width: 10
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ec089e6ba33c8d0800000000000000
+      internalID: -2827351583782547902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_6
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 77
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed9ec437c2229640800000000000000
+      internalID: 5085165168234503654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 76
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8537d79ae66340cc0800000000000000
+      internalID: -3745809141147536552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 77
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e24d6b916e66c060800000000000000
+      internalID: 6973382438528303841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_9
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 77
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6705d90b2f9922e0800000000000000
+      internalID: -2150012339895335058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_10
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 77
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b75f9351c4dfec0800000000000000
+      internalID: -3531582878738187406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_11
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 77
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f39531cba4485a0800000000000000
+      internalID: -6520004188886712485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_12
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 77
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a4ee31de1fda910800000000000000
+      internalID: 1850401022463068748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_13
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 91
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72947e6d20dee7e30800000000000000
+      internalID: 4503297273868273959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_14
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 96
+        width: 74
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983d9c4e05d9e1f00800000000000000
+      internalID: 1089481130631615369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_15
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 76
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872902b62b11d4630800000000000000
+      internalID: 3912803109253976696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 22
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bebcd0dc1e4f9cc0800000000000000
+      internalID: -3702154483005079887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 23
+        width: 131
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5011a6d474fc0e60800000000000000
+      internalID: 7929981826546864221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_18
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bd61fcfd10fc1d0800000000000000
+      internalID: -3328439538839790750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_19
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 23
+        width: 139
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d63e97a1347bb3f0800000000000000
+      internalID: -883985145233787183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winScreenCorgiRescued_20
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 22
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a16a34a73dc00a0800000000000000
+      internalID: -6913918805846123940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      winScreenCorgiRescued_0: -2856063132747840053
+      winScreenCorgiRescued_1: 1006538467637231270
+      winScreenCorgiRescued_10: -3531582878738187406
+      winScreenCorgiRescued_11: -6520004188886712485
+      winScreenCorgiRescued_12: 1850401022463068748
+      winScreenCorgiRescued_13: 4503297273868273959
+      winScreenCorgiRescued_14: 1089481130631615369
+      winScreenCorgiRescued_15: 3912803109253976696
+      winScreenCorgiRescued_16: -3702154483005079887
+      winScreenCorgiRescued_17: 7929981826546864221
+      winScreenCorgiRescued_18: -3328439538839790750
+      winScreenCorgiRescued_19: -883985145233787183
+      winScreenCorgiRescued_2: 7606050383990599711
+      winScreenCorgiRescued_20: -6913918805846123940
+      winScreenCorgiRescued_3: 4828182805732131474
+      winScreenCorgiRescued_4: -3665446611069527153
+      winScreenCorgiRescued_5: -2827351583782547902
+      winScreenCorgiRescued_6: 5085165168234503654
+      winScreenCorgiRescued_7: -3745809141147536552
+      winScreenCorgiRescued_8: 6973382438528303841
+      winScreenCorgiRescued_9: -2150012339895335058
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
