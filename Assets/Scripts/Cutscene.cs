@@ -21,6 +21,7 @@ public class Cutscene : MonoBehaviour
 
     IEnumerator IntroCutscene()
     {
+        player.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
         var vector3 = player.transform.position;
         vector3.y = player.transform.position.y + 4f;
         player.transform.position = vector3;
@@ -29,11 +30,11 @@ public class Cutscene : MonoBehaviour
         float preserveSpeed = GameParameters.spiderSpeed;
         float preserveMinimumTime = GameParameters.SpiderMinimumSpawnDelay;
         float preserveMaximumTime = GameParameters.SpiderMaximumSpawnDelay;
-        GameParameters.spiderSpeed = preserveSpeed * 3;
-        GameParameters.SpiderMinimumSpawnDelay = 0.2f;
+        GameParameters.spiderSpeed = preserveSpeed * 2.75f;
+        GameParameters.SpiderMinimumSpawnDelay = 0.25f;
         GameParameters.SpiderMaximumSpawnDelay = 0.75f;
         player.GetComponent<Animator>().SetBool("IsSpinning", true);
-        player.transform.DOMoveY(player.transform.position.y - 4, 5, false)
+        player.transform.DOMoveY(player.transform.position.y - 3.5f, 5, false)
             .SetEase(Ease.Linear);
         
         yield return new WaitForSeconds(5f);

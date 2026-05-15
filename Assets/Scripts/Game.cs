@@ -63,7 +63,6 @@ public class Game : MonoBehaviour
         }
         
         playerObject.transform.position = playerStartLocation.position;
-        
     }
     
     public void ClearMap()
@@ -81,7 +80,6 @@ public class Game : MonoBehaviour
     {
         HideMouseCursor();
         RestartGameClearMap();
-        isGameActive = true;
     }
 
     public GameObject[] ActiveSpidersToKill()
