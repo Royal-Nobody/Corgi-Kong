@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8537f7d1-49b9-4e03-94ed-4207529b11db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CorgiKong/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_5_26,_10_05 PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CorgiKong/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_5_26,_10_07 PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CorgiKong/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_5_26,_10_07 PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CorgiKong/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_5_26,_10_25 PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CorgiKong/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_5_26__10_05PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CorgiKong/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_5_26__10_07PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CorgiKong/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_5_26__10_07PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CorgiKong/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_5_26__10_25PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CorgiKong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CorgiKong/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sounds.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sounds.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpiderSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpiderSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Christian.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Christian.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlySwatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlySwatter.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +141,7 @@
       <workItem from="1778058449529" duration="210000" />
       <workItem from="1778129646538" duration="1528000" />
       <workItem from="1778232453087" duration="728000" />
+      <workItem from="1778794417788" duration="1939000" />
     </task>
     <task id="LOCAL-00001" summary="Assest files">
       <option name="closed" value="true" />
@@ -279,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778634839175</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="theme song">
+      <option name="closed" value="true" />
+      <created>1778640383959</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1778640383959</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +339,8 @@
     <MESSAGE value="lighter tunnel" />
     <MESSAGE value="added corgi, gopher, and lighter tunnel tile" />
     <MESSAGE value="music" />
-    <option name="LAST_COMMIT_MESSAGE" value="music" />
+    <MESSAGE value="theme song" />
+    <option name="LAST_COMMIT_MESSAGE" value="theme song" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
