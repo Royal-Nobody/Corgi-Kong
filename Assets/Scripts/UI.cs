@@ -23,13 +23,6 @@ public class UI : MonoBehaviour
         CanvasGroupDisplayer.Hide(WinCanvasGroup);
         CanvasGroupDisplayer.Hide(StartScreenCanvasGroup);
         
-        if (GameOverEffects == null)
-        {
-            Debug.Log("GameOverEffects is NOT assigned");
-            return;
-        }
-
-        Debug.Log("Calling GameOver.PlayGameOverEffects()");
         GameOverEffects.PlayGameOverEffects();
     }
 

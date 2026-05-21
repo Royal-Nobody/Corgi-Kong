@@ -9,7 +9,6 @@ public class WinDetection : MonoBehaviour
         if (collision.CompareTag("EndTile"))
         {
             game.TriggerWinScreen();
-            Debug.Log("Win");
         }
     }
 }
