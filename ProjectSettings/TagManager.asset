@@ -10,6 +10,9 @@ TagManager:
   - Spider
   - Effector
   - EndTile
+  - FlySwatter
+  - Spider Destroyer
+  - Destroy This Spider
   layers:
   - Default
   - TransparentFX

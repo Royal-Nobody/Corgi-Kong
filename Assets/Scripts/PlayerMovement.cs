@@ -10,10 +10,11 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public GroundDetector groundDetection;
     public SoundEffects sounds;
+    public GameObject flySwatterCollider;
 
     private object priorityDevice = null;
 
-    private bool canPickupFlaySwatter = false;
+    private bool canPickupFlaySwatter = true;
     private bool isTouchingLadder = false;
     public bool isJumping = false;
     public bool isClimbingLadder = false;
@@ -78,21 +79,31 @@ public class PlayerMovement : MonoBehaviour
         isJumping = true;
         StartCoroutine(CheckIfJumpingStill());
         ApplyJump();
-
-        if (canPickupFlaySwatter)
-        {
-            hasFlySwatter = true;
-            canPickupFlaySwatter = false;
-            GameObject swatter = GameObject.FindGameObjectWithTag("FlySwatter");
-            if (swatter != null)
-            {
-                swatter.SetActive(false);
-            }
-            
-            Debug.Log("Pickup Swatter");
-        }
     }
 
+    private void EquipFlySwatter(GameObject swatter)
+    {
+        hasFlySwatter = true;
+        canPickupFlaySwatter = false;
+        swatter.SetActive(false);
+        flySwatterCollider.SetActive(true);
+        
+        StartCoroutine(FlySwatterLifeCycle());
+    }
+
+    IEnumerator FlySwatterLifeCycle()
+    {
+        yield return new WaitForSeconds(GameParameters.FlySwatterEquipTimeSeconds);
+        UnequipFlySwatter();
+    }
+
+    private void UnequipFlySwatter()
+    {
+        hasFlySwatter = false;
+        canPickupFlaySwatter = true;
+        flySwatterCollider.SetActive(false);
+    }
+    
     private void ApplyJump()
     {
         rigidbody.AddForce(Vector2.up * GameParameters.PlayerJumpPower, ForceMode2D.Impulse);
@@ -194,7 +205,10 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.CompareTag("FlySwatter"))
         {
-            canPickupFlaySwatter = true;
+            if (canPickupFlaySwatter)
+            {
+                EquipFlySwatter(other.gameObject);
+            }
         }
     }
 
@@ -204,11 +218,6 @@ public class PlayerMovement : MonoBehaviour
         {
             isTouchingLadder = false;
             isClimbingLadder = false;
-        }
-
-        if (other.CompareTag("FlySwatter"))
-        {
-            canPickupFlaySwatter = false;
         }
     }
     

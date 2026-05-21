@@ -6,6 +6,7 @@ public static class GameParameters
     public static float PlayerSpeed = 2f;
     public static float PlayerJumpPower = 3f;
     public static int PlayerStartingLivesCount = 3;
+    public static float FlySwatterEquipTimeSeconds = 5f;
 
     public static float spiderSpeed = 1.5f;
     
