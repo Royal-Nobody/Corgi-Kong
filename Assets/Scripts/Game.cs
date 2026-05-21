@@ -22,7 +22,7 @@ public class Game : MonoBehaviour
 
     public void Start()
     {
-        Music.PlayThemeMusic();
+        Music.PlayMenuMusic();
     }
     
     public void OnPlayButtonClicked()
@@ -30,6 +30,7 @@ public class Game : MonoBehaviour
         HideMouseCursor();
         cutscene.PlayIntroCutscene();
         Ui.HideStartScreen();
+        Music.PlayGameMusic();
     }
 
     public void TriggerGameOver()
@@ -37,12 +38,14 @@ public class Game : MonoBehaviour
         ShowMouseCursor();
         isGameActive = false;
         Ui.ShowGameOverScreen();
+        Music.PlayMenuMusic();
     }
     public void TriggerWinScreen()
     {
         ShowMouseCursor();
         isGameActive = false;
         Ui.ShowWinScreen();
+        Music.PlayMenuMusic();
     }
 
     public void PlayAgainButtonClicked()
@@ -53,6 +56,7 @@ public class Game : MonoBehaviour
         cutscene.PlayIntroCutscene();
         Ui.HideGameOverScreen();
         Ui.HideWinScreen();
+        Music.PlayGameMusic();
     }
 
     public void RestartGameClearMap()
