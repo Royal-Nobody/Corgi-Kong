@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1efbd081-60a6-4c9e-a0a3-5fd87b99ace1" name="Changes" comment="" />
+    <list default="true" id="1efbd081-60a6-4c9e-a0a3-5fd87b99ace1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Corgi-Kong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Corgi-Kong/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameOverUIEffects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameOverUIEffects.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +47,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Demigiant.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/CorgiKong.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Haley.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIEffects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameOverUIEffects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WinDetection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WinScreenUIEffects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Recovery/0 (1).unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Recovery/0.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@bb329a87fcdc/Runtime/TMP/TMP_PackageResourceImporter.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -73,7 +78,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "GameOverUIEffects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -131,6 +136,7 @@
       <workItem from="1778012067940" duration="6144000" />
       <workItem from="1778531775842" duration="785000" />
       <workItem from="1778616914311" duration="17069000" />
+      <workItem from="1779389192827" duration="2099000" />
     </task>
     <task id="LOCAL-00001" summary="I Made the startScreen and play button">
       <option name="closed" value="true" />
@@ -172,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778704369043</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Connected the WinScreen Effects in UI to UI so that the effects appear when winscreen shows">
+      <option name="closed" value="true" />
+      <created>1779389586577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779389586577</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +218,8 @@
     <MESSAGE value="Created WinScreen" />
     <MESSAGE value="Project Default" />
     <MESSAGE value="Polished the StartScreen with added UI effects where the Corgi Kong and play button swing in. Added the Win Screen and made it so it pops up when You hit the EndTile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polished the StartScreen with added UI effects where the Corgi Kong and play button swing in. Added the Win Screen and made it so it pops up when You hit the EndTile" />
+    <MESSAGE value="Connected the WinScreen Effects in UI to UI so that the effects appear when winscreen shows" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connected the WinScreen Effects in UI to UI so that the effects appear when winscreen shows" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

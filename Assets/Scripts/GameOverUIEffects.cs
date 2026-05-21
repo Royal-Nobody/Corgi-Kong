@@ -43,11 +43,11 @@ public class GameOverUIEffects : MonoBehaviour
     {
         Debug.Log("Game Over effects are playing");
 
-        MoveEverythingOffScreen();
-        StartCoroutine(PlayFlyinAnimations());
+        MoveEverythingOffScreen_GameOver();
+        StartCoroutine(PlayFlyingAnimations_GameOver());
     }
 
-    private IEnumerator PlayFlyinAnimations()
+    private IEnumerator PlayFlyingAnimations_GameOver()
     {
         AnimateGImage();
         yield return new WaitForSeconds(0.5f);
@@ -76,62 +76,62 @@ public class GameOverUIEffects : MonoBehaviour
     
     private void AnimateGImage()
     {
-        GImage.rectTransform.DOAnchorPos(GImageFinalPosition, 0.8f)
-            .SetEase(Ease.InOutSine);
+        GImage.rectTransform.DOAnchorPos(GImageFinalPosition, 0.5f)
+            .SetEase(Ease.OutBounce);
     }
     
     private void AnimateAImage()
     {
-        AImage.rectTransform.DOAnchorPos(AImageFinalPosition, 0.8f)
-            .SetEase(Ease.InOutSine);
+        AImage.rectTransform.DOAnchorPos(AImageFinalPosition, 0.5f)
+            .SetEase(Ease.OutBounce);
     }
     private void AnimateMImage()
     {
-        MImage.rectTransform.DOAnchorPos(MImageFinalPosition, 0.8f)
-            .SetEase(Ease.InOutSine);
+        MImage.rectTransform.DOAnchorPos(MImageFinalPosition, 0.5f)
+            .SetEase(Ease.OutBounce);
         
     }
     private void AnimateEImage()
     {
-        EImage.rectTransform.DOAnchorPos(EImageFinalPosition, 0.8f)
-            .SetEase(Ease.InOutSine);
+        EImage.rectTransform.DOAnchorPos(EImageFinalPosition, 0.5f)
+            .SetEase(Ease.OutBounce);
     }
     private void AnimateOImage()
     {
-        OImage.rectTransform.DOAnchorPos(OImageFinalPosition, 0.8f)
-            .SetEase(Ease.InOutSine);
+        OImage.rectTransform.DOAnchorPos(OImageFinalPosition, 0.5f)
+            .SetEase(Ease.OutBounce);
     }
     private void AnimateVImage()
     {
-        VImage.rectTransform.DOAnchorPos(VImageFinalPosition, 0.8f)
-            .SetEase(Ease.InOutSine);
+        VImage.rectTransform.DOAnchorPos(VImageFinalPosition, 0.5f)
+            .SetEase(Ease.OutBounce);
     }
     private void AnimateE2Image()
     {
-        E2Image.rectTransform.DOAnchorPos(E2ImageFinalPosition, 0.8f)
-            .SetEase(Ease.InOutSine);
+        E2Image.rectTransform.DOAnchorPos(E2ImageFinalPosition, 0.5f)
+            .SetEase(Ease.OutBounce);
     }
     private void AnimateRImage()
     {
-        RImage.rectTransform.DOAnchorPos(RImageFinalPosition, 0.8f)
-            .SetEase(Ease.InOutSine);
+        RImage.rectTransform.DOAnchorPos(RImageFinalPosition, 0.5f)
+            .SetEase(Ease.OutBounce);
     }
-    private void MoveEverythingOffScreen()
+    private void MoveEverythingOffScreen_GameOver()
     {
         float offScreenRight = MainCanvas.GetComponent<RectTransform>().rect.width;
         float offScreenLeft = -MainCanvas.GetComponent<RectTransform>().rect.width;
         float offScreenTop = MainCanvas.GetComponent<RectTransform>().rect.height;
         float offScreenBottom = -MainCanvas.GetComponent<RectTransform>().rect.height;
         
-        GImage.rectTransform.anchoredPosition = new Vector2(offScreenRight + 500f, GImageFinalPosition.x);
-        AImage.rectTransform.anchoredPosition = new Vector2(offScreenTop + 500f, AImageFinalPosition.x);
-        MImage.rectTransform.anchoredPosition = new Vector2(offScreenLeft + 500f, MImageFinalPosition.x);
-        EImage.rectTransform.anchoredPosition = new Vector2(offScreenTop + 500f, EImageFinalPosition.x);
-        OImage.rectTransform.anchoredPosition = new Vector2(offScreenBottom + 500f, OImageFinalPosition.x);
-        VImage.rectTransform.anchoredPosition = new Vector2(offScreenTop + 500f, VImageFinalPosition.x);
-        E2Image.rectTransform.anchoredPosition = new Vector2(offScreenTop + 500f, E2ImageFinalPosition.x);
-        RImage.rectTransform.anchoredPosition = new Vector2(offScreenTop + 500f, RImageFinalPosition.x);
-        GameOverPlayButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(offScreenBottom + 500f, GameOverPlayButtonFinalPosition.x);
+        GImage.rectTransform.anchoredPosition = new Vector2(GImageFinalPosition.x, offScreenTop);
+        AImage.rectTransform.anchoredPosition = new Vector2(AImageFinalPosition.x, offScreenTop);
+        MImage.rectTransform.anchoredPosition = new Vector2(MImageFinalPosition.x, offScreenTop);
+        EImage.rectTransform.anchoredPosition = new Vector2(EImageFinalPosition.x, offScreenTop);
+        OImage.rectTransform.anchoredPosition = new Vector2(OImageFinalPosition.x, offScreenTop);
+        VImage.rectTransform.anchoredPosition = new Vector2(VImageFinalPosition.x, offScreenTop);
+        E2Image.rectTransform.anchoredPosition = new Vector2(E2ImageFinalPosition.x, offScreenTop);
+        RImage.rectTransform.anchoredPosition = new Vector2(RImageFinalPosition.x, offScreenTop);
+        GameOverPlayButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(GameOverPlayButtonFinalPosition.x, offScreenBottom);
 
     }
     

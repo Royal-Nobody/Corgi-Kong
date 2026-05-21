@@ -8984,7 +8984,7 @@ MonoBehaviour:
   StartScreenCanvasGroup: {fileID: 1764163494}
   GameOverCanvasGroup: {fileID: 103396500}
   WinCanvasGroup: {fileID: 286636662}
-  WinScreenEffects: {fileID: 0}
+  WinScreenEffects: {fileID: 1093199824}
   GameOverEffects: {fileID: 1093199825}
 --- !u!4 &1093199822
 Transform:
