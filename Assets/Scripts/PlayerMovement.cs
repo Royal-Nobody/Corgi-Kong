@@ -242,4 +242,11 @@ public class PlayerMovement : MonoBehaviour
             Physics2D.IgnoreCollision(collider, GetComponent<Collider2D>(), false);
         }
     }
+
+    public void TurnOffStateMachines()
+    {
+        isClimbingLadder = false;
+        isJumping = false;
+        isTouchingLadder = false;
+    }
 }
